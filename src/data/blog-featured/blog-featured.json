@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.16 (1).jpeg",
+    "category": [
+      "lifestyle"
+    ],
+    "title": "Luxury Bed Linen Trends",
+    "url": "/blog-details-standard",
+    "author": "Admin",
+    "authorUrl": "/blog-standard"
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.16.jpeg",
+    "category": [
+      "men",
+      "home"
+    ],
+    "title": "Luxury Bed Linen Trends",
+    "url": "/blog-details-standard",
+    "author": "Admin",
+    "authorUrl": "/blog-standard"
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (1).jpeg",
+    "category": [
+      "lifestyle",
+      "home"
+    ],
+    "title": "Modern Comfort Essentials",
+    "url": "/blog-details-standard",
+    "author": "Admin",
+    "authorUrl": "/blog-standard"
+  }
+]

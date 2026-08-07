@@ -1,0 +1,3465 @@
+[
+  {
+    "id": "1",
+    "sku": "asdf123",
+    "name": "Marble Fusion",
+    "price": 980,
+    "discount": 10,
+    "offerEnd": "October 5, 2024 12:11:00",
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "home",
+      "arbora"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.16 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 5
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.16.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 4
+          },
+          {
+            "name": "m",
+            "stock": 7
+          },
+          {
+            "name": "xl",
+            "stock": 9
+          },
+          {
+            "name": "xxl",
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 1
+          },
+          {
+            "name": "m",
+            "stock": 2
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 0
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (3).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17.jpeg"
+    ],
+    "shortDescription": "Marble Fusion is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Marble Fusion: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "2",
+    "sku": "asdf125",
+    "name": "Saffron Monarch",
+    "price": 804,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 28,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "aurelia"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.18.jpeg",
+        "size": [
+          {
+            "name": "Regular",
+            "stock": 1
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.19 (1).jpeg",
+        "size": [
+          {
+            "name": "Regular",
+            "stock": 1
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.19.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.20.jpeg"
+    ],
+    "shortDescription": "Saffron Monarch is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Saffron Monarch: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "3",
+    "sku": "asdf126",
+    "name": "Velvet Summit",
+    "price": 932,
+    "discount": 10,
+    "new": false,
+    "rating": 5,
+    "saleCount": 32,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "blue",
+      "desert",
+      "caravan"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.21 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.21.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.22 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.22.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23 (1).jpeg"
+    ],
+    "shortDescription": "Velvet Summit is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Velvet Summit: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "4",
+    "sku": "asdf127",
+    "name": "Prairie Tide",
+    "price": 870,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 36,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "celestial",
+      "hamsa"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23 (2).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23 (3).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.24 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.24 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.24.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.26.jpeg"
+    ],
+    "shortDescription": "Prairie Tide is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Prairie Tide: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "5",
+    "sku": "asdf128",
+    "name": "Radiant Monarch",
+    "price": 879,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 40,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "colorspark",
+      "tealight"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.27 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.27.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.29 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.29 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.29.jpeg"
+    ],
+    "shortDescription": "Radiant Monarch is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Radiant Monarch: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "6",
+    "sku": "asdf129",
+    "name": "Stellar Tide",
+    "price": 962,
+    "discount": 10,
+    "new": true,
+    "rating": 4,
+    "saleCount": 44,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "desert",
+      "art",
+      "serving",
+      "tray"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.30 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.30.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.31 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.31 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.31.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.32 (1).jpeg"
+    ],
+    "shortDescription": "Stellar Tide is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Stellar Tide: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "7",
+    "sku": "asdf130",
+    "name": "Quantum Tempo",
+    "price": 919,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 48,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "ethnic",
+      "charm",
+      "tray"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.32.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.34 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.34.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.35.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.36 (1).jpeg"
+    ],
+    "shortDescription": "Quantum Tempo is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Quantum Tempo: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "8",
+    "sku": "asdf131",
+    "name": "Radiant Origin",
+    "price": 879,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 52,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "women",
+      "fashion",
+      "folkiva",
+      "purse"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.36 (2).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.36.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.38 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.38.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.39 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.39 (2).jpeg"
+    ],
+    "shortDescription": "Radiant Origin is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Radiant Origin: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "9",
+    "sku": "asdf132",
+    "name": "Harbor Horizon",
+    "price": 913,
+    "discount": 10,
+    "new": false,
+    "rating": 5,
+    "saleCount": 56,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "golden",
+      "lotus",
+      "caddy"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.39.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.40.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.41.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.42 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.42.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.43 (1).jpeg"
+    ],
+    "shortDescription": "Harbor Horizon is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Harbor Horizon: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "10",
+    "sku": "asdf133",
+    "name": "Serene Harbor",
+    "price": 834,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 60,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "gulnaar",
+      "raga"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.43 (2).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.43.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.44 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.44 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.44 (3).jpeg"
+    ],
+    "shortDescription": "Serene Harbor is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Serene Harbor: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "11",
+    "sku": "asdf134",
+    "name": "Bliss Tide",
+    "price": 886,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 64,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "heritage",
+      "elephant",
+      "serveware"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.44.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.45 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.45.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.46 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.46.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.16 (1).jpeg"
+    ],
+    "shortDescription": "Bliss Tide is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Bliss Tide: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "12",
+    "sku": "asdf135",
+    "name": "Prairie Luxe",
+    "price": 989,
+    "discount": 10,
+    "new": true,
+    "rating": 4,
+    "saleCount": 68,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "heritage",
+      "keepsake"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.16.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (2).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (3).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.18.jpeg"
+    ],
+    "shortDescription": "Prairie Luxe is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Prairie Luxe: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "13",
+    "sku": "asdf136",
+    "name": "Radiant Pulse",
+    "price": 804,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 72,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "furniture",
+      "indie",
+      "bloom",
+      "chest"
+    ],
+    "variation": [
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.19 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.19.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.20.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.21 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.21.jpeg"
+    ],
+    "shortDescription": "Radiant Pulse is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Radiant Pulse: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "14",
+    "sku": "asdf137",
+    "name": "Velvet Harbor",
+    "price": 879,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 76,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "furniture",
+      "indigo",
+      "chest"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.22 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.22.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23 (3).jpeg"
+    ],
+    "shortDescription": "Velvet Harbor is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Velvet Harbor: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "15",
+    "sku": "asdf138",
+    "name": "Velvet Lattice",
+    "price": 842,
+    "discount": 10,
+    "new": false,
+    "rating": 5,
+    "saleCount": 80,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "ivory",
+      "bloom",
+      "acent"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.24 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.24 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.24.jpeg"
+    ],
+    "shortDescription": "Velvet Lattice is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Velvet Lattice: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "16",
+    "sku": "asdf139",
+    "name": "Crystal Fusion",
+    "price": 879,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 84,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "ivory",
+      "lunar",
+      "lumina"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.26.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.27 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.27.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.29 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.29 (2).jpeg"
+    ],
+    "shortDescription": "Crystal Fusion is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Crystal Fusion: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "17",
+    "sku": "asdf140",
+    "name": "Echo Lattice",
+    "price": 804,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 88,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "kaleido",
+      "glass",
+      "lumina"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.29.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.30 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.30.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.31 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.31 (2).jpeg"
+    ],
+    "shortDescription": "Echo Lattice is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Echo Lattice: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "18",
+    "sku": "asdf141",
+    "name": "Nova Luxe",
+    "price": 914,
+    "discount": 10,
+    "new": true,
+    "rating": 4,
+    "saleCount": 92,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "maharoo"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.31.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.32 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.32.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.34 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.34.jpeg"
+    ],
+    "shortDescription": "Nova Luxe is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Nova Luxe: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "19",
+    "sku": "asdf142",
+    "name": "Marble Fusion",
+    "price": 960,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 96,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "mayura",
+      "heritage",
+      "plate"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.35.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.36 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.36 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.36.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.38 (1).jpeg"
+    ],
+    "shortDescription": "Marble Fusion is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Marble Fusion: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "20",
+    "sku": "asdf143",
+    "name": "Nova Horizon",
+    "price": 888,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 100,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "mehfil",
+      "maestro"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.38.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.39 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.39 (2).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.39.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.40.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.41.jpeg"
+    ],
+    "shortDescription": "Nova Horizon is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Nova Horizon: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "21",
+    "sku": "asdf144",
+    "name": "Prairie Horizon",
+    "price": 893,
+    "discount": 10,
+    "new": false,
+    "rating": 5,
+    "saleCount": 104,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "midnight",
+      "ganesha"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.42 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.42.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.43 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.43 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.43.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.44 (1).jpeg"
+    ],
+    "shortDescription": "Prairie Horizon is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Prairie Horizon: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "22",
+    "sku": "asdf145",
+    "name": "Saffron Aura",
+    "price": 814,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 108,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "women",
+      "fashion",
+      "morbagh",
+      "miniatures"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.44 (2).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.44 (3).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.44.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.45 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.45.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.46 (1).jpeg"
+    ],
+    "shortDescription": "Saffron Aura is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Saffron Aura: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "23",
+    "sku": "asdf146",
+    "name": "Marble Aura",
+    "price": 867,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 112,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "onyx",
+      "elegance"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.46.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.16 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "gold",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.16.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (3).jpeg"
+    ],
+    "shortDescription": "Marble Aura is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Marble Aura: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "24",
+    "sku": "asdf147",
+    "name": "Prairie Horizon",
+    "price": 961,
+    "discount": 10,
+    "new": true,
+    "rating": 4,
+    "saleCount": 116,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "plumia"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.18.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.19 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.19.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.20.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.21 (1).jpeg"
+    ],
+    "shortDescription": "Prairie Horizon is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Prairie Horizon: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "25",
+    "sku": "asdf148",
+    "name": "Opal Breeze",
+    "price": 950,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 120,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "rangrez",
+      "phone",
+      "perch"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.21.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.22 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.22.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "gold",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "silver",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23 (2).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "bronze",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23 (3).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.24 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.24 (2).jpeg"
+    ],
+    "shortDescription": "Opal Breeze is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Opal Breeze: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "26",
+    "sku": "asdf149",
+    "name": "Bliss Origin",
+    "price": 960,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 124,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "rangreza",
+      "hook"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.24.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.26.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.27 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.27.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.29 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.29 (2).jpeg"
+    ],
+    "shortDescription": "Bliss Origin is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Bliss Origin: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "27",
+    "sku": "asdf150",
+    "name": "Crystal Canvas",
+    "price": 826,
+    "discount": 10,
+    "new": false,
+    "rating": 5,
+    "saleCount": 128,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "home",
+      "rangreza",
+      "musician",
+      "decor"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.29.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.30 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.30.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.31 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.31 (2).jpeg"
+    ],
+    "shortDescription": "Crystal Canvas is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Crystal Canvas: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "28",
+    "sku": "asdf151",
+    "name": "Celestial Aura",
+    "price": 842,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 132,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "regal",
+      "turban",
+      "tales"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.31.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.32 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.32.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.34 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.34.jpeg"
+    ],
+    "shortDescription": "Celestial Aura is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Celestial Aura: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "29",
+    "sku": "asdf152",
+    "name": "Zenith Meadow",
+    "price": 925,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 136,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "royal",
+      "caravan",
+      "elephants"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.35.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.36 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.36 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.36.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.38 (1).jpeg"
+    ],
+    "shortDescription": "Zenith Meadow is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Zenith Meadow: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "30",
+    "sku": "asdf153",
+    "name": "Harbor Horizon",
+    "price": 857,
+    "discount": 10,
+    "new": true,
+    "rating": 4,
+    "saleCount": 140,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "royal",
+      "muse"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.38.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.39 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.39 (2).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.39.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.40.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.41.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.42 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.42.jpeg"
+    ],
+    "shortDescription": "Harbor Horizon is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Harbor Horizon: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "31",
+    "sku": "asdf154",
+    "name": "Quantum Stride",
+    "price": 950,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 144,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "rustic",
+      "raga"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.43 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.43 (2).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.43.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.44 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.44 (2).jpeg"
+    ],
+    "shortDescription": "Quantum Stride is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Quantum Stride: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "32",
+    "sku": "asdf155",
+    "name": "Marble Luxe",
+    "price": 829,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 148,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "scarlet",
+      "royale"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.44 (3).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.44.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.45 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.45.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.46 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.46.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.16 (1).jpeg"
+    ],
+    "shortDescription": "Marble Luxe is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Marble Luxe: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "33",
+    "sku": "asdf156",
+    "name": "Eclipse Canvas",
+    "price": 980,
+    "discount": 10,
+    "new": false,
+    "rating": 5,
+    "saleCount": 152,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "shahi",
+      "gajraj"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.16.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17 (3).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.17.jpeg"
+    ],
+    "shortDescription": "Eclipse Canvas is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Eclipse Canvas: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "34",
+    "sku": "asdf157",
+    "name": "Radiant Glide",
+    "price": 878,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 156,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "shahi",
+      "raga"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.18.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.19 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.19.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.20.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.21 (1).jpeg"
+    ],
+    "shortDescription": "Radiant Glide is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Radiant Glide: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "35",
+    "sku": "asdf158",
+    "name": "Nova Pulse",
+    "price": 975,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 160,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "sunset",
+      "ganesha"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.21.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.22 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.22.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23 (2).jpeg"
+    ],
+    "shortDescription": "Nova Pulse is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Nova Pulse: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "36",
+    "sku": "asdf159",
+    "name": "Celestial Monarch",
+    "price": 979,
+    "discount": 10,
+    "new": true,
+    "rating": 4,
+    "saleCount": 164,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "taal",
+      "tarang"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23 (3).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.23.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.24 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.24 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.24.jpeg"
+    ],
+    "shortDescription": "Celestial Monarch is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Celestial Monarch: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "37",
+    "sku": "asdf160",
+    "name": "Harbor Lattice",
+    "price": 877,
+    "discount": 0,
+    "new": false,
+    "rating": 5,
+    "saleCount": 168,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "tarang",
+      "of",
+      "raagini"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.26.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.27 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.27.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.29 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.29 (2).jpeg"
+    ],
+    "shortDescription": "Harbor Lattice is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Harbor Lattice: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "38",
+    "sku": "asdf161",
+    "name": "Radiant Solace",
+    "price": 914,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 172,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "turquoise",
+      "royale"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.29.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.30 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.30.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.31 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.31 (2).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.31.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.32 (1).jpeg"
+    ],
+    "shortDescription": "Radiant Solace is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Radiant Solace: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  },
+  {
+    "id": "39",
+    "sku": "asdf162",
+    "name": "Crystal Fusion",
+    "price": 979,
+    "discount": 10,
+    "new": false,
+    "rating": 5,
+    "saleCount": 176,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "decor",
+      "home",
+      "vintage",
+      "elephant",
+      "elegance"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.32.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.34 (1).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.34.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.35.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.36 (1).jpeg"
+    ],
+    "shortDescription": "Crystal Fusion is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Crystal Fusion: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use.",
+    "offerEnd": "October 5, 2024 12:11:00"
+  },
+  {
+    "id": "40",
+    "sku": "asdf163",
+    "name": "Luna Canvas",
+    "price": 987,
+    "discount": 0,
+    "new": true,
+    "rating": 4,
+    "saleCount": 180,
+    "category": [
+      "home decor",
+      "fashion"
+    ],
+    "tag": [
+      "women",
+      "fashion",
+      "whimsy",
+      "purse"
+    ],
+    "variation": [
+      {
+        "color": "white",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.36 (2).jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      },
+      {
+        "color": "multi",
+        "image": "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.36.jpeg",
+        "size": [
+          {
+            "name": "x",
+            "stock": 3
+          },
+          {
+            "name": "m",
+            "stock": 5
+          },
+          {
+            "name": "xl",
+            "stock": 4
+          },
+          {
+            "name": "xxl",
+            "stock": 2
+          }
+        ]
+      }
+    ],
+    "image": [
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.38 (1).jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.38.jpeg",
+      "/assets/img/new_products/WhatsApp Image 2026-07-28 at 07.59.39 (1).jpeg"
+    ],
+    "shortDescription": "Luna Canvas is a premium-quality product designed for modern lifestyles.",
+    "fullDescription": "Luna Canvas: Crafted with care and attention to detail, this product offers exceptional performance and style for everyday use."
+  }
+]
