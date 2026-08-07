@@ -19,8 +19,8 @@ const bannerSliderParams = {
 };
 
 const bannerImages = [
-  "/assets/img/banner/b2b-brown.png",
   "/assets/img/banner/b2b-banner.png",
+  "/assets/img/banner/b2b-brown.png"
 ];
 
 const BlogStandard = () => {
@@ -40,8 +40,8 @@ const BlogStandard = () => {
             {label: "Blog", path: process.env.PUBLIC_URL + pathname }
           ]}
         />*/}
-        <div className="blog-hero-area">
-          <div className="container">
+        <div className="blog-hero-area" style={{"background": "#fcfcfc"}}>
+          <div className="container"  style={{"background": "#fcfcfc"}}>
             <div className="blog-hero-center">
               <div className="blog-hero-content">
                 <h1>Premium gift kits</h1>
@@ -89,10 +89,43 @@ const BlogStandard = () => {
             </div>
           </div>
         </div>
+
+        <div className="section-title" style={{ textAlign: 'center' }}>
+          <h2>CATEGORIES</h2>
+          <p className=""></p>
+        </div>
+
+        <div className="blog-categories-area">
+          <div className="container">
+            <div className="blog-categories-grid">
+              {[
+                { icon: "fa-briefcase",  title: "Corporate Kits",  subtitle: "Tailored for your team" },
+                { icon: "fa-star",       title: "Executive Kits",  subtitle: "For leadership & clients" },
+                { icon: "fa-sun-o",      title: "Diwali Kits",     subtitle: "Festive celebration hampers" },
+                { icon: "fa-diamond",    title: "Luxury Kits",     subtitle: "Premium curated experiences" },
+                { icon: "fa-certificate",title: "Premium Kits",    subtitle: "Quality meets presentation" },
+                { icon: "fa-heart",      title: "Wellness Kits",   subtitle: "Mindful gifting for all" },
+              ].map((cat, idx) => (
+                <div key={idx} className="blog-category-card">
+                  <div className="blog-category-icon">
+                    <i className={`fa ${cat.icon}`} />
+                  </div>
+                  <div className="blog-category-text">
+                    <h4>{cat.title}</h4>
+                    <span>{cat.subtitle}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+
+
         
-        <div class="section-title" style={{ textAlign: 'center' }}>
-          <h2>BROCHURES!</h2>
-          <p class=""></p>
+        <div className="section-title" style={{ textAlign: 'center' }}>
+          <h2>BROCHURES</h2>
+          <p className=""></p>
         </div>
 
         <div className="blog-area pt-100 pb-100">

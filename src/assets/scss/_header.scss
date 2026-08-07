@@ -2,6 +2,7 @@
 
 .header-area {
   position: relative;
+  border-bottom: 1px solid #f9f9f9;
   &.header-absolute {
     position: absolute;
     z-index: 99;
