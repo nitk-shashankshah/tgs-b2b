@@ -858,10 +858,10 @@
       left: 0%;
       z-index: 1;
       pointer-events: none;
-      width: 25vw;
+      width: 22vw;
 
       @media #{$lg-layout} {
-        width: 25vw;
+        width: 22vw;
         left: 1%;
       }
       @media #{$md-layout} {
