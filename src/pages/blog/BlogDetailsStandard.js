@@ -22,7 +22,7 @@ const BlogDetailsStandard = () => {
         <Breadcrumb
           pages={[
             {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Blog Post", path: process.env.PUBLIC_URL + pathname }
+            {label: "Brochure Details", path: process.env.PUBLIC_URL + pathname }
           ]}
         />
         <div className="blog-area pt-100 pb-100">

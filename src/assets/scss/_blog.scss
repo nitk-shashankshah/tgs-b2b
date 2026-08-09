@@ -469,6 +469,10 @@
       margin-top: 10px;
       margin-bottom: 24px;
 
+      @media #{$xs-layout} {
+        flex-direction: column;
+      }
+
       a.default-btn {
         display: inline-flex;
         align-items: center;
@@ -486,7 +490,8 @@
         border: 2px solid #611f69;
         transition: background-color 0.2s ease, border-color 0.2s ease;
         @media #{$xs-layout} {
-          min-width: 160px;
+          width: 100%;
+          min-width: unset;
           padding: 16px 24px;
         }
         &:hover {
@@ -513,7 +518,8 @@
         border: 2px solid #611f69;
         transition: background-color 0.2s ease, color 0.2s ease;
         @media #{$xs-layout} {
-          min-width: 160px;
+          width: 100%;
+          min-width: unset;
           padding: 16px 24px;
         }
         &:hover {
@@ -795,7 +801,8 @@
       }
       @media #{$xs-layout} {
         width: 180px;
-        right: 0px;
+        left: auto;
+        right: 0;
       }
 
       .layout-plane-img {
