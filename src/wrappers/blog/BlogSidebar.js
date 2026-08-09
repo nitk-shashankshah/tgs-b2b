@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import BROCHURES from "../../data/brochures/brochures";
+import BROCHURES, { getBrochureUrl } from "../../data/brochures/brochures";
 import PdfThumbnail from "../../components/pdf/PdfThumbnail";
 
 const BlogSidebar = () => {
@@ -24,6 +24,7 @@ const BlogSidebar = () => {
               <div className="sidebar-blog-img sidebar-blog-img--pdf">
                 <Link to={process.env.PUBLIC_URL + `/brochures-details-standard?kit=${brochure.id}`}>
                   <PdfThumbnail
+                    fileUrl={process.env.PUBLIC_URL + getBrochureUrl(brochure.filename)}
                     title={brochure.title}
                     tag={brochure.tag}
                   />

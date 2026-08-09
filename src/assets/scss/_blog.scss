@@ -795,7 +795,7 @@
       }
       @media #{$xs-layout} {
         width: 180px;
-        left: 320px
+        right: 0px;
       }
 
       .layout-plane-img {
@@ -897,7 +897,35 @@
   }
 }
 
-/* ---- PDF Thumbnail Card (works on all devices) ---- */
+/* ---- PDF Thumbnail wrapper ---- */
+.pdf-thumbnail-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+/* Desktop: iframe renders the actual PDF page */
+.pdf-thumbnail-scale-container {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+
+  .pdf-thumbnail-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    transform: scale(0.5);
+    transform-origin: top left;
+    border: none;
+    pointer-events: none;
+    background: #fff;
+  }
+}
+
+/* Mobile: styled card fallback (PDFs don't render in iframes on mobile) */
 .pdf-thumbnail-card {
   width: 100%;
   height: 220px;
@@ -909,17 +937,10 @@
   justify-content: center;
   padding: 20px;
   gap: 10px;
-  transition: opacity 0.2s ease;
 
-  &:hover {
-    opacity: 0.9;
-  }
-
-  &__icon {
-    .fa {
-      font-size: 48px;
-      color: rgba(255, 255, 255, 0.85);
-    }
+  &__icon .fa {
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.85);
   }
 
   &__tag {
@@ -943,8 +964,25 @@
   }
 }
 
-/* sidebar variant — smaller */
+/* Show iframe on desktop, card on mobile */
+@media (min-width: 769px) {
+  .pdf-thumb-desktop { display: block; }
+  .pdf-thumb-mobile  { display: none;  }
+}
+
+@media (max-width: 768px) {
+  .pdf-thumb-desktop { display: none;  }
+  .pdf-thumb-mobile  { display: flex;  }
+}
+
+/* Sidebar variant — smaller container */
 .sidebar-blog-img--pdf {
+  .pdf-thumbnail-scale-container {
+    height: 90px;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
   .pdf-thumbnail-card {
     height: 80px;
     flex-direction: row;
@@ -953,18 +991,9 @@
     gap: 12px;
     border-radius: 8px;
 
-    &__icon .fa {
-      font-size: 28px;
-    }
-
-    &__tag {
-      display: none;
-    }
-
-    &__title {
-      font-size: 12px;
-      text-align: left;
-    }
+    &__icon .fa { font-size: 28px; }
+    &__tag      { display: none;   }
+    &__title    { font-size: 12px; text-align: left; }
   }
 }
 
