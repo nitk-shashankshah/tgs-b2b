@@ -1,120 +1,69 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import GIFT_KITS from "../../data/gift-kits/gift-kits";
+import BROCHURES, { getBrochureUrl } from "../../data/brochures/brochures";
+import PdfViewer from "../../components/pdf/PdfViewer";
+import EnquiryModal from "../../components/enquiry/EnquiryModal";
 
 const BlogPost = ({ kitId }) => {
-  const kit = GIFT_KITS.find((k) => k.id === kitId) || GIFT_KITS[0];
-  const prevKit = GIFT_KITS.find((k) => k.id === kit.id - 1);
-  const nextKit = GIFT_KITS.find((k) => k.id === kit.id + 1);
+  const [enquiryOpen, setEnquiryOpen] = useState(false);
+
+  const brochure = BROCHURES.find((b) => b.id === kitId) || BROCHURES[0];
+  const prevBrochure = BROCHURES.find((b) => b.id === brochure.id - 1);
+  const nextBrochure = BROCHURES.find((b) => b.id === brochure.id + 1);
+  const fileUrl = process.env.PUBLIC_URL + getBrochureUrl(brochure.filename);
 
   return (
     <Fragment>
       <div className="blog-details-top">
-        <div className="blog-details-img">
-          <img
-            alt={kit.title}
-            src={process.env.PUBLIC_URL + kit.image}
-          />
-        </div>
         <div className="blog-details-content">
           <div className="blog-meta-2">
             <ul>
-              <li>Diwali 2025</li>
+              <li>TGS</li>
               <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                  {kit.tag}
+                <Link to={process.env.PUBLIC_URL + "/brochures"}>
+                  {brochure.tag}
                 </Link>
               </li>
             </ul>
           </div>
-          <h3>{kit.title}</h3>
-          <p>{kit.description}</p>
-          <blockquote>
-            Thoughtfully curated. Beautifully packaged. Every kit is a celebration
-            of relationships, gratitude and the festive spirit.
-          </blockquote>
-          <p>
-            Each gifting kit is handpicked to make an impression that lasts beyond
-            the festive season. Whether you're recognising a valued employee,
-            thanking a loyal client, or celebrating with your team — our kits
-            are made with the finest products and packaged with care. Reach out
-            to us to customise quantities, add your brand logo, or mix items
-            across kits to create your perfect hamper.
-          </p>
+          <h3>{brochure.title}</h3>
+          <div className="brochure-download-link">
+            <a href={fileUrl} download={brochure.filename} className="brochure-dl-btn">
+              <i className="fa fa-download" /> Download PDF
+            </a>
+            <button
+              type="button"
+              className="brochure-enquire-btn"
+              onClick={() => setEnquiryOpen(true)}
+            >
+              <i className="fa fa-envelope-o" /> Enquire Now
+            </button>
+          </div>
         </div>
       </div>
+
+      <EnquiryModal
+        isOpen={enquiryOpen}
+        onClose={() => setEnquiryOpen(false)}
+        brochureTitle={brochure.title}
+      />
+
       <div className="dec-img-wrapper">
-        <div className="row">
-          <div className="col-md-12">
-            <div className="dec-img mb-50">
-              <img
-                alt={kit.title}
-                src={process.env.PUBLIC_URL + kit.image}
-              />
-            </div>
-          </div>
-        </div>
-        <p>
-          All kits are available for bulk ordering with custom branding options.
-          Minimum order quantities apply. Contact our gifting team for pricing,
-          lead times and bespoke packaging.
-        </p>
+        <PdfViewer fileUrl={fileUrl} title={brochure.title} />
       </div>
-      <div className="tag-share">
-        <div className="dec-tag">
-          <ul>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                {kit.tag} ,
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                Corporate Gifting ,
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                Diwali 2025
-              </Link>
-            </li>
-          </ul>
-        </div>
-        <div className="blog-share">
-          <span>share :</span>
-          <div className="share-social">
-            <ul>
-              <li>
-                <a className="facebook" href="//facebook.com">
-                  <i className="fa fa-facebook" />
-                </a>
-              </li>
-              <li>
-                <a className="twitter" href="//twitter.com">
-                  <i className="fa fa-twitter" />
-                </a>
-              </li>
-              <li>
-                <a className="instagram" href="//instagram.com">
-                  <i className="fa fa-instagram" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+
       <div className="next-previous-post">
-        {prevKit ? (
-          <Link to={process.env.PUBLIC_URL + `/blog-details-standard?kit=${prevKit.id}`}>
-            <i className="fa fa-angle-left" /> {prevKit.title}
+        {prevBrochure ? (
+          <Link to={process.env.PUBLIC_URL + `/brochures-details-standard?kit=${prevBrochure.id}`}>
+            <i className="fa fa-angle-left" /> {prevBrochure.title}
           </Link>
         ) : (
           <span />
         )}
-        {nextKit ? (
-          <Link to={process.env.PUBLIC_URL + `/blog-details-standard?kit=${nextKit.id}`}>
-            {nextKit.title} <i className="fa fa-angle-right" />
+        {nextBrochure ? (
+          <Link to={process.env.PUBLIC_URL + `/brochures-details-standard?kit=${nextBrochure.id}`}>
+            {nextBrochure.title} <i className="fa fa-angle-right" />
           </Link>
         ) : (
           <span />

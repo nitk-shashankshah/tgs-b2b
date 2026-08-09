@@ -17,7 +17,7 @@ const HomeFashion = () => {
         headerContainerClass="container"
         headerPaddingClass="header-padding-1"
       >
-        <div className="header-filter-row">
+        {/*<div className="header-filter-row">
           <div className="container p-0">
             <img
               className="img-fluid"
@@ -25,10 +25,10 @@ const HomeFashion = () => {
               alt="Filters"
             />
           </div>
-        </div>
+        </div>*/}
 
         {/* hero slider */}
-        <HeroSliderOne />
+        {/*<HeroSliderOne />*/}
 
         {/* featured icon */}
         <FeatureIcon spaceTopClass="pt-100" spaceBottomClass="pb-60" />

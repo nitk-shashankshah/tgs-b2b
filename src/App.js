@@ -344,19 +344,19 @@ const App = () => {
 
               {/* Blog pages */}
               <Route
-                path={process.env.PUBLIC_URL + "/blog-standard"}
+                path={process.env.PUBLIC_URL + "/b2b"}
                 element={<BlogStandard/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/blog-no-sidebar"}
+                path={process.env.PUBLIC_URL + "/brochures"}
                 element={<BlogNoSidebar/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/blog-right-sidebar"}
+                path={process.env.PUBLIC_URL + "/brochures-right-sidebar"}
                 element={<BlogRightSidebar/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/blog-details-standard"}
+                path={process.env.PUBLIC_URL + "/brochures-details-standard"}
                 element={<BlogDetailsStandard/>}
               /> 
 

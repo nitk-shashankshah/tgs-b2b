@@ -4,7 +4,7 @@ import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BlogPagination from "../../wrappers/blog/BlogPagination";
-import BlogPostsNoSidebar from "../../wrappers/blog/BlogPostsNoSidebar";
+import BlogPosts from "../../wrappers/blog/BlogPosts";
 
 const BlogNoSidebar = () => {
   let { pathname } = useLocation();
@@ -20,7 +20,7 @@ const BlogNoSidebar = () => {
         <Breadcrumb 
           pages={[
             {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Blog", path: process.env.PUBLIC_URL + pathname }
+            {label: "Brochures", path: process.env.PUBLIC_URL + pathname }
           ]} 
         />
         <div className="blog-area pt-100 pb-100 blog-no-sidebar">
@@ -30,7 +30,7 @@ const BlogNoSidebar = () => {
                 <div className="mr-20">
                   <div className="row">
                     {/* blog posts */}
-                    <BlogPostsNoSidebar />
+                    <BlogPosts />
                   </div>
 
                   {/* blog pagination */}

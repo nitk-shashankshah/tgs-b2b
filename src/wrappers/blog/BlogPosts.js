@@ -1,42 +1,42 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import GIFT_KITS from "../../data/gift-kits/gift-kits";
+import BROCHURES from "../../data/brochures/brochures";
+import PdfThumbnail from "../../components/pdf/PdfThumbnail";
 
 const BlogPosts = () => {
   return (
     <Fragment>
-      {GIFT_KITS.map((kit) => (
-        <div key={kit.id} className="col-lg-6 col-md-6 col-sm-12">
+      {BROCHURES.map((brochure) => (
+        <div key={brochure.id} className="col-lg-6 col-md-6 col-sm-12">
           <div className="blog-wrap-2 mb-30">
             <div className="blog-img-2">
-              <Link to={process.env.PUBLIC_URL + `/blog-details-standard?kit=${kit.id}`}>
-                <img
-                  src={process.env.PUBLIC_URL + kit.image}
-                  alt={kit.title}
+              <Link to={process.env.PUBLIC_URL + `/brochures-details-standard?kit=${brochure.id}`}>
+                <PdfThumbnail
+                  title={brochure.title}
+                  tag={brochure.tag}
                 />
               </Link>
             </div>
             <div className="blog-content-2">
               <div className="blog-meta-2">
                 <ul>
-                  <li>Diwali 2025</li>
+                  <li>TGS</li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-                      {kit.tag}
+                    <Link to={process.env.PUBLIC_URL + "/brochures"}>
+                      {brochure.tag}
                     </Link>
                   </li>
                 </ul>
               </div>
               <h4>
-                <Link to={process.env.PUBLIC_URL + `/blog-details-standard?kit=${kit.id}`}>
-                  {kit.title}
+                <Link to={process.env.PUBLIC_URL + `/brochures-details-standard?kit=${brochure.id}`}>
+                  {brochure.title}
                 </Link>
               </h4>
-              <p>{kit.description}</p>
               <div className="blog-share-comment">
                 <div className="blog-btn-2">
-                  <Link to={process.env.PUBLIC_URL + `/blog-details-standard?kit=${kit.id}`}>
-                    enquire now
+                  <Link to={process.env.PUBLIC_URL + `/brochures-details-standard?kit=${brochure.id}`}>
+                    view brochure
                   </Link>
                 </div>
                 <div className="blog-share">

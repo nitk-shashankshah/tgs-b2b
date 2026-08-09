@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import GIFT_KITS from "../../data/gift-kits/gift-kits";
+import BROCHURES from "../../data/brochures/brochures";
+import PdfThumbnail from "../../components/pdf/PdfThumbnail";
 
 const BlogSidebar = () => {
   return (
@@ -16,101 +17,28 @@ const BlogSidebar = () => {
         </div>
       </div>
       <div className="sidebar-widget">
-        <h4 className="pro-sidebar-title">Recent Projects </h4>
+        <h4 className="pro-sidebar-title">All Brochures</h4>
         <div className="sidebar-project-wrap mt-30">
-          {GIFT_KITS.map((kit) => (
-            <div key={kit.id} className="single-sidebar-blog">
-              <div className="sidebar-blog-img">
-                <Link to={process.env.PUBLIC_URL + `/blog-details-standard?kit=${kit.id}`}>
-                  <img
-                    src={process.env.PUBLIC_URL + kit.image}
-                    alt={kit.title}
+          {BROCHURES.map((brochure) => (
+            <div key={brochure.id} className="single-sidebar-blog">
+              <div className="sidebar-blog-img sidebar-blog-img--pdf">
+                <Link to={process.env.PUBLIC_URL + `/brochures-details-standard?kit=${brochure.id}`}>
+                  <PdfThumbnail
+                    title={brochure.title}
+                    tag={brochure.tag}
                   />
                 </Link>
               </div>
               <div className="sidebar-blog-content">
-                <span>{kit.tag}</span>
+                <span>{brochure.tag}</span>
                 <h4>
-                  <Link to={process.env.PUBLIC_URL + `/blog-details-standard?kit=${kit.id}`}>
-                    {kit.title}
+                  <Link to={process.env.PUBLIC_URL + `/brochures-details-standard?kit=${brochure.id}`}>
+                    {brochure.title}
                   </Link>
                 </h4>
               </div>
             </div>
           ))}
-        </div>
-      </div>
-      <div className="sidebar-widget mt-35">
-        <h4 className="pro-sidebar-title">Categories</h4>
-        <div className="sidebar-widget-list sidebar-widget-list--blog mt-20">
-          <ul>
-            <li>
-              <div className="sidebar-widget-list-left">
-                <input type="checkbox" defaultValue />{" "}
-                <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                  Women <span>4</span>{" "}
-                </Link>
-                <span className="checkmark" />
-              </div>
-            </li>
-            <li>
-              <div className="sidebar-widget-list-left">
-                <input type="checkbox" defaultValue />{" "}
-                <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                  Men <span>4</span>{" "}
-                </Link>
-                <span className="checkmark" />
-              </div>
-            </li>
-            <li>
-              <div className="sidebar-widget-list-left">
-                <input type="checkbox" defaultValue />{" "}
-                <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                  Bags <span>4</span>{" "}
-                </Link>
-                <span className="checkmark" />
-              </div>
-            </li>
-            <li>
-              <div className="sidebar-widget-list-left">
-                <input type="checkbox" defaultValue />{" "}
-                <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                  Accessories <span>4</span>{" "}
-                </Link>
-                <span className="checkmark" />
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="sidebar-widget mt-50">
-        <h4 className="pro-sidebar-title">Tag </h4>
-        <div className="sidebar-widget-tag mt-25">
-          <ul>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                Clothing
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                Accessories
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                For Men
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>Women</Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                Fashion
-              </Link>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
