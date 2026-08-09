@@ -40,8 +40,8 @@ const BlogStandard = () => {
             {label: "Blog", path: process.env.PUBLIC_URL + pathname }
           ]}
         />*/}
-        <div className="blog-hero-area" style={{"background": "#fcfcfc"}}>
-          <div className="container"  style={{"background": "#fcfcfc"}}>
+        <div className="blog-hero-area">
+          <div className="container">
             <div className="blog-hero-center">
               <div className="blog-hero-content">
                 <h1>Premium gift kits</h1>

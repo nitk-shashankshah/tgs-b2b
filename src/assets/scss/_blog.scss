@@ -377,7 +377,7 @@
     width: 200vw;
     height: 200vw;
     border-radius: 50%;
-    background: linear-gradient(#fcfcfc 20%, #fcfcfc 55%)
+    background: /*linear-gradient(#fcfcfc 20%, #f7f1f1 55%)*/ radial-gradient(20vw at 10% 70%, #ff649640, #0000), radial-gradient(20vw at 30% 70%, #6496ff40, #0000), radial-gradient(20vw at 65% 70%, #64ff9640, #0000), radial-gradient(20vw at 90% 70%, #ffff6440, #0000);
   }
 
   // Radial colour blobs on top of the circle, behind the image
@@ -390,7 +390,7 @@
     width: 100%;
     pointer-events: none;
     border-radius: 50% 50% 0 0;
-    background: #ffffff;
+    background: #fff;
   }
 
   .container {
