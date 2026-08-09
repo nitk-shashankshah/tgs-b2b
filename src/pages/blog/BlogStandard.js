@@ -65,6 +65,16 @@ const BlogStandard = () => {
                   className="blog-hero-clients"
                 />
               </div>
+
+              <div className="blog-hero-visual">
+                <div className="blog-hero-gift">                 
+                  <img
+                    src={process.env.PUBLIC_URL + "/assets/img/banner/gift.png"}
+                    alt="Premium gift kit"
+                    className="blog-hero-gift-img"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>

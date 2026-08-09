@@ -428,12 +428,82 @@
   }
   .blog-hero-center {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    text-align: center;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: left;
+
+    @media #{$md-layout} {
+      gap: 24px;
+    }
+
+    @media #{$xs-layout} {
+      flex-direction: column;
+      gap: 32px;
+    }
   }
+
+  .blog-hero-visual {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media #{$xs-layout} {
+      order: -1;
+      width: 100%;
+      justify-content: flex-start;
+    }
+  }
+
+  .blog-hero-gift {
+    position: relative;
+    display: inline-block;
+    @media #{$xs-layout} {
+        width: 60px;
+        left:0px;
+        top:20px;
+    }
+    .blog-hero-gift-img {
+      height: auto;
+      display: block;
+      width: 120px;
+      @media #{$lg-layout} {
+        width: 120px;
+      }
+
+      @media #{$md-layout} {
+         width: 120px;
+      }
+
+      @media #{$xs-layout} {
+        width: 60px;
+        left:0px;
+        top:20px;
+      }
+    }
+  }
+
   .blog-hero-content {
-    padding-top:40px;
+    padding-top: 40px;
+    padding-left: 250px;
+  
+    @media #{$lg-layout} {
+      padding-left: 200px;
+      padding-top: 10px;
+    }
+
+    @media #{$md-layout} {
+      padding-left: 0px;
+      padding-top: 10px;
+    }
+
+    @media #{$xs-layout} {
+      padding-left: 0px;
+      padding-top: 0px;
+    }
+
     h1 {
       font-size: 54px;
       font-weight: 600;
@@ -471,6 +541,15 @@
 
       @media #{$xs-layout} {
         flex-direction: column;
+
+        a.default-btn,
+        a.btn-hover {
+          width: 100%;
+          min-width: unset;
+          padding: 16px 24px !important;
+          font-size: 14px !important;
+          line-height: 1.2 !important;
+        }
       }
 
       a.default-btn {
@@ -489,11 +568,6 @@
         color: #fff !important;
         border: 2px solid #611f69;
         transition: background-color 0.2s ease, border-color 0.2s ease;
-        @media #{$xs-layout} {
-          width: 100%;
-          min-width: unset;
-          padding: 16px 24px;
-        }
         &:hover {
           background-color: #4a1650;
           border-color: #4a1650;
@@ -517,11 +591,6 @@
         color: #611f69 !important;
         border: 2px solid #611f69;
         transition: background-color 0.2s ease, color 0.2s ease;
-        @media #{$xs-layout} {
-          width: 100%;
-          min-width: unset;
-          padding: 16px 24px;
-        }
         &:hover {
           background-color: #611f69;
           color: #fff !important;
