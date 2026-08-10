@@ -1132,12 +1132,9 @@
 
 .pdf-gallery-frame {
   width: 100%;
-  height: 560px;
+  aspect-ratio: 16 / 9;
   background: #fafafa;
-
-  @media #{$xs-layout} {
-    height: 400px;
-  }
+  overflow: hidden;
 }
 
 .pdf-gallery-iframe {
