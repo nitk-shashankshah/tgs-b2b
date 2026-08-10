@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { CATEGORIES } from "../../data/brochures/brochures";
 import { EffectFade } from "swiper";
 import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
@@ -108,23 +109,20 @@ const BlogStandard = () => {
         <div className="blog-categories-area">
           <div className="container">
             <div className="blog-categories-grid">
-              {[
-                { icon: "fa-briefcase",  title: "Corporate Kits",  subtitle: "Tailored for your team" },
-                { icon: "fa-star",       title: "Executive Kits",  subtitle: "For leadership & clients" },
-                { icon: "fa-sun-o",      title: "Diwali Kits",     subtitle: "Festive celebration hampers" },
-                { icon: "fa-diamond",    title: "Luxury Kits",     subtitle: "Premium curated experiences" },
-                { icon: "fa-certificate",title: "Premium Kits",    subtitle: "Quality meets presentation" },
-                { icon: "fa-heart",      title: "Wellness Kits",   subtitle: "Mindful gifting for all" },
-              ].map((cat, idx) => (
-                <div key={idx} className="blog-category-card">
+              {CATEGORIES.map((cat) => (
+                <Link
+                  key={cat.tag}
+                  to={process.env.PUBLIC_URL + `/brochures?tag=${encodeURIComponent(cat.tag)}`}
+                  className="blog-category-card"
+                >
                   <div className="blog-category-icon">
                     <i className={`fa ${cat.icon}`} />
                   </div>
                   <div className="blog-category-text">
-                    <h4>{cat.title}</h4>
+                    <h4>{cat.tag}</h4>
                     <span>{cat.subtitle}</span>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>

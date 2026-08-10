@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import BROCHURES, { getBrochureUrl } from "../../data/brochures/brochures";
 import PdfThumbnail from "../../components/pdf/PdfThumbnail";
 
-const BlogPosts = () => {
+const BlogPosts = ({ filterTag }) => {
+  const list = filterTag ? BROCHURES.filter((b) => b.tag === filterTag) : BROCHURES;
   return (
     <Fragment>
-      {BROCHURES.map((brochure) => (
+      {list.map((brochure) => (
         <div key={brochure.id} className="col-lg-6 col-md-6 col-sm-12">
           <div className="blog-wrap-2 mb-30">
             <div className="blog-img-2">

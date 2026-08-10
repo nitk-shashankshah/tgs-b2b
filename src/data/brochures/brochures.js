@@ -23,4 +23,27 @@ const BROCHURES = [
 export const getBrochureUrl = (filename) =>
   BASE + encodeURIComponent(filename);
 
+export const CATEGORY_META = {
+  "Gifting Guide": { icon: "fa-book",         subtitle: "Complete gifting catalogue" },
+  "B2B":           { icon: "fa-briefcase",    subtitle: "Business gifting solutions" },
+  "Bags":          { icon: "fa-shopping-bag", subtitle: "Bags & backpack range" },
+  "Hampers":       { icon: "fa-gift",         subtitle: "Curated gift hampers" },
+  "Packaging":     { icon: "fa-cube",         subtitle: "Box & packaging solutions" },
+  "Diwali":        { icon: "fa-sun-o",        subtitle: "Festive Diwali gifts" },
+  "Garments":      { icon: "fa-user",         subtitle: "Apparel & garment range" },
+  "Kit Concepts":  { icon: "fa-lightbulb-o",  subtitle: "Creative kit ideas" },
+  "Caps":          { icon: "fa-certificate",  subtitle: "Cap & headwear range" },
+  "Conferences":   { icon: "fa-users",        subtitle: "Conference & event kits" },
+  "Trophies":      { icon: "fa-trophy",       subtitle: "Awards & trophies" },
+  "Catalog":       { icon: "fa-th-large",     subtitle: "Full product catalog" },
+  "Corporate":     { icon: "fa-building-o",   subtitle: "Corporate gift range" },
+  "Eco":           { icon: "fa-leaf",         subtitle: "Sustainable eco gifts" },
+  "Gift Sets":     { icon: "fa-heart",        subtitle: "Curated gift sets" },
+};
+
+export const CATEGORIES = [...new Set(BROCHURES.map((b) => b.tag))].map((tag) => ({
+  tag,
+  ...(CATEGORY_META[tag] || { icon: "fa-gift", subtitle: "Browse collection" }),
+}));
+
 export default BROCHURES;

@@ -912,6 +912,8 @@
     cursor: pointer;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+    color: inherit;
 
     @media #{$xs-layout} {
       padding: 14px 16px;
@@ -921,6 +923,8 @@
     &:hover {
       border-color: #611f69;
       box-shadow: 0 4px 16px rgba(97, 31, 105, 0.1);
+      color: inherit;
+      text-decoration: none;
     }
   }
 
@@ -970,6 +974,42 @@
       @media #{$xs-layout} {
         font-size: 12px;
       }
+    }
+  }
+}
+
+.brochures-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  margin-bottom: 32px;
+  background: #f5f0f6;
+  border: 1px solid #e0d5e2;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #444;
+
+  strong {
+    color: #611f69;
+  }
+
+  .brochures-filter-clear {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    background: #611f69;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 13px;
+    text-decoration: none;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #4a1750;
+      color: #fff;
+      text-decoration: none;
     }
   }
 }
