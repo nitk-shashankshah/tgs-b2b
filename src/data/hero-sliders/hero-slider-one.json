@@ -3,14 +3,15 @@
     "id": 1,
     "title": "Smart Products",
     "subtitle": "Summer Offer 2026 Collection",
-    "image": "/assets/img/product/Ivory Lunar Lumina/banner.jpg",
+    "image": "/assets/img/banner/b2c1.jpeg",
     "url": "/shop-grid-standard"
-  },
+  }
+  ,
   {
     "id": 1,
     "title": "Smart Products",
     "subtitle": "Summer Offer 2026 Collection",
-    "image": "/assets/img/product/Ivory Lunar Lumina/banner2.jpg",
+    "image": "/assets/img/banner/b2c2.jpeg",
     "url": "/shop-grid-standard"
   }
 ]
