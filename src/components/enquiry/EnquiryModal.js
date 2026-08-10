@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const INITIAL = { name: "", email: "", phone: "", company: "", message: "" };
 
-const EnquiryModal = ({ isOpen, onClose, brochureTitle }) => {
+const EnquiryModal = ({ isOpen, onClose, brochureTitle, pageNumber }) => {
   const [form, setForm] = useState(INITIAL);
   const [status, setStatus] = useState("idle"); // idle | submitting | success | error
 
@@ -32,7 +32,7 @@ const EnquiryModal = ({ isOpen, onClose, brochureTitle }) => {
     e.preventDefault();
     setStatus("submitting");
     try {
-      const payload = { ...form, brochure: brochureTitle };
+      const payload = { ...form, brochure: brochureTitle, page: pageNumber || null };
       const res = await fetch("/api/enquiry", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -73,7 +73,10 @@ const EnquiryModal = ({ isOpen, onClose, brochureTitle }) => {
           <>
             <div className="enquiry-modal-header">
               <h3>Enquire About This Brochure</h3>
-              <p className="enquiry-brochure-name">{brochureTitle}</p>
+              <p className="enquiry-brochure-name">
+                {brochureTitle}
+                {pageNumber && <span className="enquiry-page-badge"> — Page {pageNumber}</span>}
+              </p>
             </div>
 
             <form className="enquiry-form" onSubmit={handleSubmit} noValidate>
@@ -182,6 +185,7 @@ EnquiryModal.propTypes = {
   isOpen: PropTypes.bool.isRequired,
   onClose: PropTypes.func.isRequired,
   brochureTitle: PropTypes.string,
+  pageNumber: PropTypes.number,
 };
 
 export default EnquiryModal;

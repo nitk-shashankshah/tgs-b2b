@@ -6,7 +6,7 @@ import PdfViewer from "../../components/pdf/PdfViewer";
 import EnquiryModal from "../../components/enquiry/EnquiryModal";
 
 const BlogPost = ({ kitId }) => {
-  const [enquiryOpen, setEnquiryOpen] = useState(false);
+  const [enquiryPage, setEnquiryPage] = useState(null); // null = closed
 
   const brochure = BROCHURES.find((b) => b.id === kitId) || BROCHURES[0];
   const prevBrochure = BROCHURES.find((b) => b.id === brochure.id - 1);
@@ -28,29 +28,22 @@ const BlogPost = ({ kitId }) => {
             </ul>
           </div>
           <h3>{brochure.title}</h3>
-          <div className="brochure-download-link">
-            <a href={fileUrl} download={brochure.filename} className="brochure-dl-btn">
-              <i className="fa fa-download" /> Download PDF
-            </a>
-            <button
-              type="button"
-              className="brochure-enquire-btn"
-              onClick={() => setEnquiryOpen(true)}
-            >
-              <i className="fa fa-envelope-o" /> Enquire Now
-            </button>
-          </div>
         </div>
       </div>
 
       <EnquiryModal
-        isOpen={enquiryOpen}
-        onClose={() => setEnquiryOpen(false)}
+        isOpen={enquiryPage !== null}
+        onClose={() => setEnquiryPage(null)}
         brochureTitle={brochure.title}
+        pageNumber={enquiryPage}
       />
 
       <div className="dec-img-wrapper">
-        <PdfViewer fileUrl={fileUrl} title={brochure.title} />
+        <PdfViewer
+          fileUrl={fileUrl}
+          numPages={brochure.pages}
+          onEnquire={(pageNum) => setEnquiryPage(pageNum)}
+        />
       </div>
 
       <div className="next-previous-post">
