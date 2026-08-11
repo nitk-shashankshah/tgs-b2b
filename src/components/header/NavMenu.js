@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import clsx from "clsx";
+import { CATEGORIES } from "../../data/brochures/brochures";
 
 const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
   const { t } = useTranslation();
@@ -396,9 +397,30 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
             </ul>*/}
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-              {t("collection")}
+            <Link to={process.env.PUBLIC_URL + "/brochures"}>
+              {t("Categories")}
+              {sidebarMenu ? (
+                <span><i className="fa fa-angle-right" /></span>
+              ) : (
+                <i className="fa fa-angle-down" />
+              )}
             </Link>
+            <ul className="submenu">
+              <li>
+                <Link to={process.env.PUBLIC_URL + "/brochures"}>
+                  All Categories
+                </Link>
+              </li>
+              {CATEGORIES.map((cat) => (
+                <li key={cat.tag}>
+                  <Link
+                    to={process.env.PUBLIC_URL + `/brochures?tag=${encodeURIComponent(cat.tag)}`}
+                  >
+                    {cat.tag}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/"}>

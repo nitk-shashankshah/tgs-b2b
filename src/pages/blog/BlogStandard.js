@@ -76,7 +76,7 @@ const BlogStandard = () => {
                     Visit B2C Store &rarr;
                   </Link>
                 </div>
-                <p className="blog-hero-trust">Trusted by top teams</p>
+                <p className="blog-hero-trust">Trusted by top companies</p>
                 <img
                   src={process.env.PUBLIC_URL + "/assets/img/banner/clients.png"}
                   alt="Our clients"
