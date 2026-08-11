@@ -114,11 +114,13 @@ const BlogStandard = () => {
                   key={cat.tag}
                   to={process.env.PUBLIC_URL + `/brochures?tag=${encodeURIComponent(cat.tag)}`}
                   className="blog-category-card"
-                  style={{ background: ["#fef9f1","#f1f7ee","#eff5f9","#f9f0f5","#fef5ef"][idx] }}
+                  style={{ background: ["#fff","#fff","#fff","#fff","#fff"][idx] }}
                 >
                   <div className="blog-category-text">
                     <h4>{cat.tag}</h4>
-                    <span>{cat.subtitle.length > 20 ? cat.subtitle.split(' ').slice(0, 2).join(' ') : cat.subtitle  }</span>
+                    <span>{cat.subtitle.split(' ').length > 2 ? (
+                      cat.subtitle.split(' ').slice(0, 2).join(' ')
+                    ) : cat.subtitle}</span>
                   </div>
                   <div className="blog-category-floral">
                     <img
