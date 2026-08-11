@@ -109,18 +109,22 @@ const BlogStandard = () => {
         <div className="blog-categories-area">
           <div className="container">
             <div className="blog-categories-grid">
-              {CATEGORIES.map((cat) => (
+              {CATEGORIES.slice(0, 5).map((cat, idx) => (
                 <Link
                   key={cat.tag}
                   to={process.env.PUBLIC_URL + `/brochures?tag=${encodeURIComponent(cat.tag)}`}
                   className="blog-category-card"
+                  style={{ background: ["#fef9f1","#f1f7ee","#eff5f9","#f9f0f5","#fef5ef"][idx] }}
                 >
-                  <div className="blog-category-icon">
-                    <i className={`fa ${cat.icon}`} />
-                  </div>
                   <div className="blog-category-text">
                     <h4>{cat.tag}</h4>
-                    <span>{cat.subtitle}</span>
+                    <span>{cat.subtitle.length > 20 ? cat.subtitle.split(' ').slice(0, 2).join(' ') : cat.subtitle  }</span>
+                  </div>
+                  <div className="blog-category-floral">
+                    <img
+                      src={process.env.PUBLIC_URL + `/assets/img/banner/floral${[1,2,3,5,6][idx]}.png`}
+                      alt=""
+                    />
                   </div>
                 </Link>
               ))}
