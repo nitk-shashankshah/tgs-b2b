@@ -16,16 +16,7 @@ const HomeFashion = () => {
       <LayoutOne
         headerContainerClass="container"
         headerPaddingClass="header-padding-1"
-      >
-       {/* <div className="header-filter-row">
-          <div className="container p-0">
-            <img
-              className="img-fluid"
-              src={process.env.PUBLIC_URL + "/assets/img/banner/dimple.jpg"}
-              alt="Filters"
-            />
-          </div>
-        </div>*/}
+      >       
 
         {/* hero slider */}
         <HeroSliderOne />

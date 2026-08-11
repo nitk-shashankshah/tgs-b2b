@@ -35,11 +35,11 @@ const HeaderOne = ({
 
   return (
     <header className={clsx("header-area clearfix", headerBgClass, headerPositionClass)}>
-      {!hidePromo && <PromoBanner />}
+      {/*!hidePromo && <PromoBanner />*/}
       <div
         className={clsx(
           "header-top-area",
-          headerPaddingClass, (!hidePromo && top === "visible") ? "d-none d-lg-block" : "d-none",
+          headerPaddingClass,  "d-lg-block",
           borderStyle === "fluid-border" && "border-none" 
         )}
       >

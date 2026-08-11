@@ -35,8 +35,7 @@ const Contact = () => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>+012 345 678 102</p>
-                      <p>+012 345 678 102</p>
+                      <p>8884441952</p>
                     </div>
                   </div>
                   <div className="single-contact-info">
@@ -45,13 +44,13 @@ const Contact = () => {
                     </div>
                     <div className="contact-info-dec">
                       <p>
-                        <a href="mailto:yourname@email.com">
-                          yourname@email.com
+                        <a href="mailto:admin@totalgiftsolutions.com">
+                          admin@totalgiftsolutions.com
                         </a>
                       </p>
                       <p>
-                        <a href="https://yourwebsitename.com">
-                          yourwebsitename.com
+                        <a href="https://totalgiftsolutions.com">
+                          https://totalgiftsolutions.com
                         </a>
                       </p>
                     </div>
@@ -61,8 +60,8 @@ const Contact = () => {
                       <i className="fa fa-map-marker" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>Address goes here, </p>
-                      <p>street, Crossroad 123.</p>
+                      <p>#284/8, 2nd Floor, Behind Sai Baba Temple, Garvebhavi Palya, Hosur Main Road</p>
+                      <p>Bangalore City - 560068, Karnataka, India.</p>
                     </div>
                   </div>
                   <div className="contact-social text-center">
