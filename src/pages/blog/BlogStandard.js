@@ -19,6 +19,23 @@ const bannerSliderParams = {
   navigation: true,
 };
 
+const CARD_COLORS = ["#fff", "#f1f7ee", "#f6f7ee", "#f9f0f5", "#fef5ef"];
+const FLORAL_IMGS = [1, 2, 3, 5, 6];
+
+const categorySliderParams = {
+  slidesPerView: 4,
+  spaceBetween: 14,
+  navigation: true,
+  loop: false,
+  autoHeight: false,
+  breakpoints: {
+    0:   { slidesPerView: 1, spaceBetween: 10 },
+    480: { slidesPerView: 2, spaceBetween: 10 },
+    768: { slidesPerView: 3, spaceBetween: 12 },
+    1200: { slidesPerView: 4, spaceBetween: 14 },
+  },
+};
+
 const bannerImages = [
   "/assets/img/banner/b2b-banner.png",
   "/assets/img/banner/b2b-brown.png"
@@ -108,29 +125,32 @@ const BlogStandard = () => {
 
         <div className="blog-categories-area">
           <div className="container">
-            <div className="blog-categories-grid">
-              {CATEGORIES.slice(0, 5).map((cat, idx) => (
-                <Link
-                  key={cat.tag}
-                  to={process.env.PUBLIC_URL + `/brochures?tag=${encodeURIComponent(cat.tag)}`}
-                  className="blog-category-card"
-                  style={{ background: ["#fff","#fff","#fff","#fff","#fff"][idx] }}
-                >
-                  <div className="blog-category-text">
-                    <h4>{cat.tag}</h4>
-                    <span>{cat.subtitle.split(' ').length > 2 ? (
-                      cat.subtitle.split(' ').slice(0, 2).join(' ')
-                    ) : cat.subtitle}</span>
-                  </div>
-                  <div className="blog-category-floral">
-                    <img
-                      src={process.env.PUBLIC_URL + `/assets/img/banner/floral${[1,2,3,5,6][idx]}.png`}
-                      alt=""
-                    />
-                  </div>
-                </Link>
+            <Swiper
+              options={categorySliderParams}
+              navClass="category"
+              className="blog-categories-slider"              
+            >
+              {CATEGORIES.map((cat, idx) => (
+                <SwiperSlide key={cat.tag}>
+                  <Link
+                    to={process.env.PUBLIC_URL + `/brochures?tag=${encodeURIComponent(cat.tag)}`}
+                    className="blog-category-card"
+                    style={{ background: '#fff' }}
+                  >
+                    <div className="blog-category-text">
+                      <h4>{cat.tag}</h4>
+                      <span>{cat.subtitle}</span>
+                    </div>
+                    <div className="blog-category-floral">
+                      <img
+                        src={process.env.PUBLIC_URL + `/assets/img/banner/floral${FLORAL_IMGS[idx % FLORAL_IMGS.length]}.png`}
+                        alt=""
+                      />
+                    </div>
+                  </Link>
+                </SwiperSlide>
               ))}
-            </div>
+            </Swiper>
           </div>
         </div>
 
