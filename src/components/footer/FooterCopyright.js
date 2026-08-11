@@ -13,11 +13,11 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
       <p>
         &copy; {new Date().getFullYear()}{" "}
         <a
-          href="https://hasthemes.com"
+          href="https://totalgiftsolutions.in/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Flone
+          Total Gift Solutions
         </a>
         .<br /> All Rights Reserved
       </p>
