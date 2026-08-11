@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const INITIAL = { name: "", email: "", phone: "", company: "", message: "" };
 
-const EnquiryModal = ({ isOpen, onClose, brochureTitle, pageNumber }) => {
+const EnquiryModal = ({ isOpen, onClose, brochureTitle, pageNumber, isGeneral }) => {
   const [form, setForm] = useState(INITIAL);
   const [status, setStatus] = useState("idle"); // idle | submitting | success | error
 
@@ -64,7 +64,7 @@ const EnquiryModal = ({ isOpen, onClose, brochureTitle, pageNumber }) => {
           <div className="enquiry-success">
             <i className="fa fa-check-circle" />
             <h3>Enquiry Sent!</h3>
-            <p>Thank you for your interest in <strong>{brochureTitle}</strong>. Our team will reach out to you shortly.</p>
+            <p>Thank you for your interest {isGeneral ? "in our services" : "in <strong>{brochureTitle}</strong>"}. Our team will reach out to you shortly.</p>
             <button className="enquiry-btn enquiry-btn--primary" onClick={onClose}>
               Close
             </button>
@@ -72,7 +72,11 @@ const EnquiryModal = ({ isOpen, onClose, brochureTitle, pageNumber }) => {
         ) : (
           <>
             <div className="enquiry-modal-header">
-              <h3>Enquire About This Brochure</h3>
+              { isGeneral ? (
+                <h3>General Enquiry</h3>
+              ) : (
+                <h3>Enquire About This Brochure</h3>
+              )}
               <p className="enquiry-brochure-name">
                 {brochureTitle}
                 {pageNumber && <span className="enquiry-page-badge"> — Page {pageNumber}</span>}
