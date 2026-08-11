@@ -913,7 +913,7 @@
     text-decoration: none;
     color: inherit;
     padding: 0px 5px;
-    
+
     @media #{$xs-layout} {
       padding: 14px 10px 14px 14px;
     }
@@ -930,7 +930,7 @@
   .blog-category-text {
     flex: 1;
     min-width: 0;
-
+    padding: 15px 0px;
     h4 {
       font-size: 14px;
       font-weight: 200;
