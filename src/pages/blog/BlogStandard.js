@@ -4,8 +4,8 @@ import { CATEGORIES } from "../../data/brochures/brochures";
 import { EffectFade } from "swiper";
 import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
-import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
-import BlogSidebar from "../../wrappers/blog/BlogSidebar";
+// import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+// import BlogSidebar from "../../wrappers/blog/BlogSidebar";
 import BlogPagination from "../../wrappers/blog/BlogPagination";
 import BlogPosts from "../../wrappers/blog/BlogPosts";
 import Swiper, { SwiperSlide } from "../../components/swiper/index.jsx";
@@ -19,7 +19,7 @@ const bannerSliderParams = {
   navigation: true,
 };
 
-const CARD_COLORS = ["#fff", "#f1f7ee", "#f6f7ee", "#f9f0f5", "#fef5ef"];
+// const CARD_COLORS = ["#fff", "#f1f7ee", "#f6f7ee", "#f9f0f5", "#fef5ef"];
 const FLORAL_IMGS = [1, 2, 3, 5, 6];
 
 const categorySliderParams = {
@@ -42,7 +42,7 @@ const bannerImages = [
 ];
 
 const BlogStandard = () => {
-  let { pathname } = useLocation();
+  useLocation();
 
   return (
     <Fragment>
