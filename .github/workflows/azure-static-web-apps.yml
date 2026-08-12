@@ -25,6 +25,10 @@ jobs:
         run: npm run build
         env:
           REACT_APP_API_URL: /api
+          REACT_APP_EMAILJS_SERVICE_ID: ${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }}
+          REACT_APP_EMAILJS_CONTACT_TEMPLATE: ${{ secrets.REACT_APP_EMAILJS_CONTACT_TEMPLATE }}
+          REACT_APP_EMAILJS_ENQUIRY_TEMPLATE: ${{ secrets.REACT_APP_EMAILJS_ENQUIRY_TEMPLATE }}
+          REACT_APP_EMAILJS_PUBLIC_KEY: ${{ secrets.REACT_APP_EMAILJS_PUBLIC_KEY }}
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1

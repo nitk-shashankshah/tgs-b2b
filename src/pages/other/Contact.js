@@ -1,11 +1,37 @@
-import { Fragment } from "react"; 
+import { Fragment, useState } from "react";
 import { useLocation } from "react-router-dom";
+import emailjs from "@emailjs/browser";
 import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 
+const INITIAL = { name: "", email: "", subject: "", message: "" };
+
 const Contact = () => {
   let { pathname } = useLocation();
+  const [form, setForm] = useState(INITIAL);
+  const [status, setStatus] = useState("idle"); // idle | submitting | success | error
+
+  const handleChange = (e) => {
+    setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("submitting");
+    try {
+      await emailjs.send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_CONTACT_TEMPLATE,
+        form,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      );
+      setStatus("success");
+      setForm(INITIAL);
+    } catch {
+      setStatus("error");
+    }
+  };
 
   return (
     <Fragment>
@@ -15,14 +41,14 @@ const Contact = () => {
       />
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
-        <Breadcrumb 
+        <Breadcrumb
           pages={[
             {label: "Home", path: process.env.PUBLIC_URL + "/" },
             {label: "Contact", path: process.env.PUBLIC_URL + pathname }
-          ]} 
+          ]}
         />
         <div className="contact-area pt-100 pb-100">
-          <div className="container">            
+          <div className="container">
             <div className="custom-row-2">
               <div className="col-12 col-lg-4 col-md-5">
                 <div className="contact-info-wrap">
@@ -97,34 +123,70 @@ const Contact = () => {
                   <div className="contact-title mb-30">
                     <h2>Get In Touch</h2>
                   </div>
-                  <form className="contact-form-style">
-                    <div className="row">
-                      <div className="col-lg-6">
-                        <input name="name" placeholder="Name*" type="text" />
-                      </div>
-                      <div className="col-lg-6">
-                        <input name="email" placeholder="Email*" type="email" />
-                      </div>
-                      <div className="col-lg-12">
-                        <input
-                          name="subject"
-                          placeholder="Subject*"
-                          type="text"
-                        />
-                      </div>
-                      <div className="col-lg-12">
-                        <textarea
-                          name="message"
-                          placeholder="Your Message*"
-                          defaultValue={""}
-                        />
-                        <button className="submit" type="submit">
-                          SEND
-                        </button>
-                      </div>
+                  {status === "success" ? (
+                    <div className="form-message form-message--success">
+                      <i className="fa fa-check-circle" /> Message sent! We'll get back to you shortly.
                     </div>
-                  </form>
-                  <p className="form-message" />
+                  ) : (
+                    <form className="contact-form-style" onSubmit={handleSubmit}>
+                      <div className="row">
+                        <div className="col-lg-6">
+                          <input
+                            name="name"
+                            placeholder="Name*"
+                            type="text"
+                            value={form.name}
+                            onChange={handleChange}
+                            required
+                            disabled={status === "submitting"}
+                          />
+                        </div>
+                        <div className="col-lg-6">
+                          <input
+                            name="email"
+                            placeholder="Email*"
+                            type="email"
+                            value={form.email}
+                            onChange={handleChange}
+                            required
+                            disabled={status === "submitting"}
+                          />
+                        </div>
+                        <div className="col-lg-12">
+                          <input
+                            name="subject"
+                            placeholder="Subject*"
+                            type="text"
+                            value={form.subject}
+                            onChange={handleChange}
+                            required
+                            disabled={status === "submitting"}
+                          />
+                        </div>
+                        <div className="col-lg-12">
+                          <textarea
+                            name="message"
+                            placeholder="Your Message*"
+                            value={form.message}
+                            onChange={handleChange}
+                            required
+                            disabled={status === "submitting"}
+                          />
+                          {status === "error" && (
+                            <p className="form-message form-message--error">
+                              Something went wrong. Please try again or{" "}
+                              <a href="mailto:admin@totalgiftsolutions.com">email us directly</a>.
+                            </p>
+                          )}
+                          <button className="submit" type="submit" disabled={status === "submitting"}>
+                            {status === "submitting" ? (
+                              <><i className="fa fa-spinner fa-spin" /> SENDING…</>
+                            ) : "SEND"}
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  )}
                 </div>
               </div>
             </div>

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
+import emailjs from "@emailjs/browser";
 
 const INITIAL = { name: "", email: "", phone: "", company: "", message: "" };
 
@@ -32,20 +33,20 @@ const EnquiryModal = ({ isOpen, onClose, brochureTitle, pageNumber, isGeneral })
     e.preventDefault();
     setStatus("submitting");
     try {
-      const payload = { ...form, brochure: brochureTitle, page: pageNumber || null };
-      const res = await fetch("/api/enquiry", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
-      if (res.ok) {
-        setStatus("success");
-      } else {
-        setStatus("error");
-      }
-    } catch {
-      // No API yet — treat as success for demo
+      const payload = {
+        ...form,
+        brochure: brochureTitle || "General",
+        page: pageNumber ? String(pageNumber) : "N/A",
+      };
+      await emailjs.send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_ENQUIRY_TEMPLATE,
+        payload,
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+      );
       setStatus("success");
+    } catch {
+      setStatus("error");
     }
   };
 
