@@ -22,7 +22,7 @@ const HeaderFive = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Flone
+              Total Gift Solutions
             </a>
             .All Rights Reserved.
           </p>

@@ -154,8 +154,13 @@
     align-items: center;
   }
 }
+
 .swiper-slide {
   background: #fdf4ec;
+}
+
+#b2c-banner-slider .swiper-slide {
+  background: #fff;
 }
 
 .swiper-slide .slider-animated-1 * {

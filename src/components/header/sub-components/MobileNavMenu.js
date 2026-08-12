@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { CATEGORIES } from "../../../data/brochures/brochures";
 
 const MobileNavMenu = () => {
   const { t } = useTranslation();
@@ -9,7 +10,8 @@ const MobileNavMenu = () => {
       <ul>
         <li className="menu-item-has-children">
           <Link to={process.env.PUBLIC_URL + "/"}>{t("home")}</Link>
-          <ul className="sub-menu">
+          
+         {/* <ul className="sub-menu">
             <li className="menu-item-has-children">
               <Link to={process.env.PUBLIC_URL + "/"}>
                 {t("home_group_one")}
@@ -221,14 +223,14 @@ const MobileNavMenu = () => {
                 </li>
               </ul>
             </li>
-          </ul>
+          </ul>*/}
         </li>
 
         <li className="menu-item-has-children">
           <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
             {t("shop")}
           </Link>
-          <ul className="sub-menu">
+          {/*<ul className="sub-menu">
             <li className="menu-item-has-children">
               <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
                 {t("shop_layout")}
@@ -335,16 +337,27 @@ const MobileNavMenu = () => {
                 </li>
               </ul>
             </li>
+          </ul>*/}
+        </li>
+       
+        <li className="menu-item-has-children">
+          <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+            {t("categories")}
+          </Link>
+          <ul className="sub-menu">            
+            {CATEGORIES.map((cat) => (
+              <li key={cat.tag}>
+                <Link to={process.env.PUBLIC_URL + `/brochures?tag=${encodeURIComponent(cat.tag)}`}>
+                  {cat.tag}
+                </Link>
+              </li>
+            ))}
           </ul>
         </li>
-        <li>
-          <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-            {t("collection")}
-          </Link>
-        </li>
+        
         <li className="menu-item-has-children">
-          <Link to={process.env.PUBLIC_URL + "/"}>{t("pages")}</Link>
-          <ul className="sub-menu">
+          <Link to={process.env.PUBLIC_URL + "/about"}>{t("about")}</Link>
+          {/*<ul className="sub-menu">
             <li>
               <Link to={process.env.PUBLIC_URL + "/cart"}>
                 {t("cart")}
@@ -390,34 +403,21 @@ const MobileNavMenu = () => {
                 {t("404_page")}
               </Link>
             </li>
-          </ul>
+          </ul>*/}
         </li>
         <li className="menu-item-has-children">
-          <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-            {t("blog")}
+          <Link to={process.env.PUBLIC_URL + "/brochures"}>
+            {t("brochures")}
           </Link>
-          <ul className="sub-menu">
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                {t("blog_standard")}
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-no-sidebar"}>
-                {t("blog_no_sidebar")}
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-right-sidebar"}>
-                {t("blog_right_sidebar")}
-              </Link>
-            </li>
-            <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-                {t("blog_details_standard")}
-              </Link>
-            </li>
-          </ul>
+          {/*<ul className="sub-menu">            
+            {CATEGORIES.map((cat) => (
+              <li key={cat.tag}>
+                <Link to={process.env.PUBLIC_URL + `/brochures?tag=${encodeURIComponent(cat.tag)}`}>
+                  {cat.tag}
+                </Link>
+              </li>
+            ))}
+          </ul>*/}
         </li>
         <li>
           <Link to={process.env.PUBLIC_URL + "/contact"}>

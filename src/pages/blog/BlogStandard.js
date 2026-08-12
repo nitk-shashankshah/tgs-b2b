@@ -101,7 +101,7 @@ const BlogStandard = () => {
         <div className="blog-banner-area">
           <div className="container">
             <div className="slider-area">
-              <div className="slider-active nav-style-1">
+              <div className="slider-active nav-style-1" id="b2c-banner-slider">
                 <Swiper options={bannerSliderParams}>
                   {bannerImages.map((src, key) => (
                     <SwiperSlide key={key}>
