@@ -3,24 +3,24 @@
     "id": 1,
     "image": "/assets/img/icon-img/support-1.png",
     "title": "Free Shipping",
-    "subtitle": "Free shipping on all order"
+    "subtitle": "Free shipping for all orders above INR 10,000"
   },
   {
     "id": 2,
     "image": "/assets/img/icon-img/support-2.png",
     "title": "Support 24/7",
-    "subtitle": "Free shipping on all order"
+    "subtitle": "24/7 customer support for all your queries"
   },
   {
     "id": 3,
     "image": "/assets/img/icon-img/support-3.png",
     "title": "Money Return",
-    "subtitle": "Free shipping on all order"
+    "subtitle": "30 days money back guarantee"
   },
   {
     "id": 4,
     "image": "/assets/img/icon-img/support-4.png",
     "title": "Order Discount",
-    "subtitle": "Free shipping on all order"
+    "subtitle": "Get 10% discount on your first order"
   }
 ]

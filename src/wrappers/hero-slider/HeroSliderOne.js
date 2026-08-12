@@ -17,7 +17,7 @@ const params = {
 
 const HeroSliderOne = () => {
   return (
-    <div className="slider-area hero-banner-slider">
+    <div className="container slider-area hero-banner-slider">
       <div className="slider-active nav-style-1">
         {heroSliderData && (
           <Swiper options={params}>
