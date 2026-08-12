@@ -30,7 +30,7 @@ const BrandLogoSliderOne = ({ spaceBottomClass, spaceTopClass }) => {
       <div className="container">
         <div className="brand-logo-active">
           {brandLogoData && (
-            <Swiper options={settings}>
+            <Swiper options={settings} id="brands-slider">
               {brandLogoData.map((single, key) => (
                 <SwiperSlide key={key}>
                   <BrandLogoOneSingle
