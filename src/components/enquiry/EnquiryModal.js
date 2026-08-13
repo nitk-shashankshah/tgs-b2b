@@ -65,7 +65,7 @@ const EnquiryModal = ({ isOpen, onClose, brochureTitle, pageNumber, isGeneral })
           <div className="enquiry-success">
             <i className="fa fa-check-circle" />
             <h3>Enquiry Sent!</h3>
-            <p>Thank you for your interest {isGeneral ? "in our services" : "in <strong>{brochureTitle}</strong>"}. Our team will reach out to you shortly.</p>
+            <p>Thank you for your interest {isGeneral ? "in our services" : <span>in <strong>{brochureTitle}</strong></span>}. Our team will reach out to you shortly.</p>
             <button className="enquiry-btn enquiry-btn--primary" onClick={onClose}>
               Close
             </button>

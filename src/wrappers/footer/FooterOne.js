@@ -45,7 +45,7 @@ const FooterOne = ({
                     <Link to={process.env.PUBLIC_URL + "/about"}>About us</Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>
+                    <Link to={process.env.PUBLIC_URL + "/contact"}>
                       Store location
                     </Link>
                   </li>
@@ -55,7 +55,7 @@ const FooterOne = ({
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>
+                    <Link to={process.env.PUBLIC_URL + "/contact"}>
                       Orders tracking
                     </Link>
                   </li>
@@ -63,7 +63,7 @@ const FooterOne = ({
               </div>
             </div>
           </div>
-          {/*<div
+          <div
             className={`${
               sideMenu ? "col-xl-2 col-sm-4" : "col-lg-2 col-sm-4"
             }`}
@@ -97,7 +97,7 @@ const FooterOne = ({
                 </ul>
               </div>
             </div>
-          </div>*/}
+          </div>
           <div
             className={`${
               sideMenu ? "col-xl-3 col-sm-4" : "col-lg-2 col-sm-6"

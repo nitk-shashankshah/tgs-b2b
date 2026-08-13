@@ -36,7 +36,7 @@ const LanguageCurrencyChanger = ({ currency }) => {
                 English
               </button>
             </li>
-            <li>
+            {/*<li>
               <button value="fn" onClick={e => changeLanguageTrigger(e)}>
                 French
               </button>
@@ -45,7 +45,7 @@ const LanguageCurrencyChanger = ({ currency }) => {
               <button value="de" onClick={e => changeLanguageTrigger(e)}>
                 Germany
               </button>
-            </li>
+            </li>*/}
           </ul>
         </div>
       </div>
