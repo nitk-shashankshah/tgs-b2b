@@ -118,6 +118,7 @@ const BlogStandard = () => {
           </div>
         </div>
 
+
         <div className="section-title" style={{ textAlign: 'center' }}>
           <h2>CATEGORIES</h2>
           <p className=""></p>
@@ -155,6 +156,39 @@ const BlogStandard = () => {
         </div>
 
 
+
+        <div className="section-title" style={{ textAlign: 'center' }}>
+          <h2>OUR WORK PROCESS</h2>
+          <p className=""></p>
+        </div>
+
+        <div className="work-process-area">
+          <div className="container">            
+            <div className="work-process-steps">
+              <div className="work-process-step">
+                <img src={process.env.PUBLIC_URL + "/assets/img/banner/step1.png"} alt="Step 1" />
+                <h4>Step 1</h4>
+                <p>Enquire and Order</p>
+              </div>
+              <div className="work-process-connector">
+                <img src={process.env.PUBLIC_URL + "/assets/img/banner/connector.png"} alt="" />
+              </div>
+              <div className="work-process-step">
+                <img src={process.env.PUBLIC_URL + "/assets/img/banner/step2.png"} alt="Step 2" />
+                <h4>Step 2</h4>
+                <p>Branding and Packaging</p>
+              </div>
+              <div className="work-process-connector">
+                <img src={process.env.PUBLIC_URL + "/assets/img/banner/connector.png"} alt="" />
+              </div>
+              <div className="work-process-step">
+                <img src={process.env.PUBLIC_URL + "/assets/img/banner/step3.png"} alt="Step 3" />
+                <h4>Step 3</h4>
+                <p>Delivered at your doorstep</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
         
         <div className="section-title" style={{ textAlign: 'center' }}>

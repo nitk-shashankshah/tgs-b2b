@@ -1507,3 +1507,81 @@
 .swiper{
   padding: 16px;
 }
+/* ---- Work Process Section ---- */
+.work-process-area {
+  padding: 60px 0 70px;
+  background: #fff;
+
+  .section-title h2 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+}
+
+.work-process-steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+
+  @media #{$md-layout}, #{$sm-layout}, #{$xs-layout} {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+.work-process-step {
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  img {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin-bottom: 16px;
+
+    @media #{$md-layout} { width: 110px; height: 110px; }
+    @media #{$sm-layout}, #{$xs-layout} { width: 100px; height: 100px; }
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 6px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    max-width: 140px;
+  }
+}
+
+.work-process-connector {
+  flex: 0 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 36px;
+
+  img {
+    width: 70px;
+    object-fit: contain;
+  }
+
+  @media #{$md-layout}, #{$sm-layout}, #{$xs-layout} {
+    padding-bottom: 0;
+    transform: rotate(90deg);
+
+    img { width: 48px; }
+  }
+}
