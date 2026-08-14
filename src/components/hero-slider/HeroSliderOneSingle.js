@@ -9,7 +9,7 @@ const  HeroSliderOneSingle = ({ data }) => {
         src={encodeURI(process.env.PUBLIC_URL + data.image)}
         alt=""
       />
-      <div className="hero-slide-overlay">
+      <div className="hero-slide-overlay" style={data.overlayLeft ? { left: data.overlayLeft } : undefined}>
         {data.badge && (
           <div className="hero-slide-badge">
             <i className="fa fa-users" />

@@ -3,12 +3,13 @@
     "id": 1,
     "image": "/assets/img/banner/b2c1.jpeg",
     "badge": null,
-    "headingLines": ["Corporate Gifts", "That Build Stronger"],
-    "headingHighlight": "Business Relationships",
+    "headingLines": ["Welcome Kits"],
+    "headingHighlight": "that are Wows...",
     "subtext": "Premium, customized and impactful gifting solutions for employees, clients, events, and promotional campaigns.",
     "btn1": { "text": "Get a Quote →", "url": "/contact" },
     "btn2": { "text": "View Brochures ↓", "url": "/brochures" },
-    "footerNote": null
+    "footerNote": null,
+    "overlayLeft": "20%"
   },
   {
     "id": 2,
