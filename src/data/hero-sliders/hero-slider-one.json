@@ -18,7 +18,7 @@
     "headingHighlight": "business",
     "subtext": "Customized kits for every occasion.\nDelivered with care.",
     "btn1": { "text": "GET STARTED →", "url": "/contact" },
-    "btn2": { "text": "VISIT B2B STORE", "url": "/b2b", "icon": "fa-shopping-bag" },
+    "btn2": { "text": "VISIT B2B STORE", "url": "/", "icon": "fa-shopping-bag" },
     "footerNote": null
   }
 ]
