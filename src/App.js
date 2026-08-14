@@ -121,9 +121,15 @@ const App = () => {
             <Routes>
               <Route
                 path={process.env.PUBLIC_URL + "/"}
-                element={<HomeFashion/>}
+                element={<BlogStandard/>}
               />
 
+              <Route
+                path={process.env.PUBLIC_URL + "/b2c"}
+                element={<HomeFashion/>}
+              />
+                {/* Blog pages */}
+          
               {/* Homepages */}
               <Route
                 path={process.env.PUBLIC_URL + "/home-fashion"}
