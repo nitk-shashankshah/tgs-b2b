@@ -6,7 +6,6 @@ import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
 // import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 // import BlogSidebar from "../../wrappers/blog/BlogSidebar";
-import BlogPagination from "../../wrappers/blog/BlogPagination";
 import BlogPosts from "../../wrappers/blog/BlogPosts";
 import Swiper, { SwiperSlide } from "../../components/swiper/index.jsx";
 
@@ -196,18 +195,23 @@ const BlogStandard = () => {
           <p className=""></p>
         </div>
 
-        <div className="blog-area pt-100 pb-100">
+        <div className="blog-area pt-40 pb-100">
           <div className="container">
             <div className="row flex-row-reverse">
               <div className="col-lg-12">
                 <div className="ml-20">
                   <div className="row">
-                    {/* blog posts */}
-                    <BlogPosts />
+                    <BlogPosts limit={4} />
                   </div>
 
-                  {/* blog pagination */}
-                  <BlogPagination />
+                  <div className="text-center mt-30">
+                    <Link
+                      to={process.env.PUBLIC_URL + "/brochures"}
+                      className="default-btn"
+                    >
+                      View All Brochures →
+                    </Link>
+                  </div>
                 </div>
               </div>
               {/*<div className="col-lg-3">
