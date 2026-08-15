@@ -32,7 +32,7 @@ const About = () => {
         <SectionTitleWithText spaceTopClass="pt-100" spaceBottomClass="pb-95" />
 
         {/* banner */}
-        {/*<BannerOne spaceBottomClass="pb-70" />*/}
+        <BannerOne spaceBottomClass="pb-70" />
 
         {/* text grid */}
         <TextGridOne spaceBottomClass="pb-70" />
