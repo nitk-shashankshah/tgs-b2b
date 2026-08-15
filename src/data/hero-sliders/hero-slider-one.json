@@ -1,17 +1,6 @@
-[
+[ 
   {
     "id": 1,
-    "image": "/assets/img/banner/b2c1.jpeg",
-    "badge": "Welcome Kits",
-    "headingLines": ["Customized Kits"],
-    "headingHighlight": "for new joinees",
-    "subtext": "Premium, customized and impactful gifting solutions for employees, clients, events, and promotional campaigns.",
-    "btn1": { "text": "Get a Quote →", "url": "/contact" },
-    "btn2": { "text": "View Brochures ↓", "url": "/brochures" },
-    "footerNote": null
-  },
-  {
-    "id": 2,
     "image": "/assets/img/banner/b2c2.jpeg",
     "badge": "CORPORATE GIFTING SOLUTIONS",
     "headingLines": ["Premium gift kits", "crafted for your"],
@@ -19,6 +8,17 @@
     "subtext": "Customized kits for every occasion.\nDelivered with care.",
     "btn1": { "text": "GET STARTED →", "url": "/contact" },
     "btn2": { "text": "VISIT B2B STORE", "url": "/", "icon": "fa-shopping-bag" },
+    "footerNote": null
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/banner/b2c1.jpeg",
+    "badge": "Welcome Kits",
+    "headingLines": ["Customized Kits"],
+    "headingHighlight": "for new joinees",
+    "subtext": "Premium, customized and impactful gifting solutions for employees, clients, events, and promotional campaigns.",
+    "btn1": { "text": "Get a Quote →", "url": "/contact" },
+    "btn2": { "text": "View Brochures ↓", "url": "/brochures" },
     "footerNote": null
   }
 ]
