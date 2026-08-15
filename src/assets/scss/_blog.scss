@@ -1123,26 +1123,14 @@
   }
 }
 
-/* Show iframe on desktop, card on mobile */
-@media (min-width: 769px) {
-  .pdf-thumb-desktop { display: block; }
-  .pdf-thumb-mobile  { display: none;  }
-}
+/* Always show the PDF iframe; hide the purple card fallback */
+.pdf-thumb-desktop { display: block; }
+.pdf-thumb-mobile  { display: none;  }
 
+/* On mobile, shrink the iframe container to fit the 2-column grid */
 @media (max-width: 768px) {
-  .pdf-thumb-desktop { display: none;  }
-  .pdf-thumb-mobile  { display: flex;  }
-
-  /* Compact card for 2-column mobile grid */
-  .pdf-thumbnail-card {
-    height: 140px;
-    padding: 12px;
-    gap: 6px;
-    border-radius: 8px;
-
-    &__icon .fa { font-size: 28px; }
-    &__tag      { font-size: 9px; padding: 2px 6px; }
-    &__title    { font-size: 11px; }
+  .pdf-thumbnail-scale-container {
+    height: 150px;
   }
 }
 
