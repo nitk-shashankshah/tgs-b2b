@@ -2875,6 +2875,7 @@
   overflow: hidden;
   padding: 0 !important;
   height: 400px;
+  border-radius: 12px;
 
   @media #{$lg-layout} { height: 500px; }
   @media #{$md-layout} { height: 420px; }
