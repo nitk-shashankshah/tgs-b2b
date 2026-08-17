@@ -15,7 +15,7 @@ const HomeHandmade = () => {
     <Fragment>
       <SEO
         titleTemplate="Handmade Home"
-        description="Handmade home of flone react minimalist eCommerce template."
+        description="Handmade home of Total Gift Solutions."
       />
       <LayoutOne headerTop="visible">
         {/* hero slider */}

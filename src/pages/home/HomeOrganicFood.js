@@ -14,7 +14,7 @@ const HomeOrganicFood = () => {
     <Fragment>
       <SEO
         titleTemplate="Organic Food Home"
-        description="Organic food home of flone react minimalist eCommerce template."
+        description="Organic food home of Total Gift Solutions."
       />
       <LayoutThree
         headerTop="visible"

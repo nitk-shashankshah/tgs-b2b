@@ -15,7 +15,7 @@ const HomeMedicalEquipment = () => {
     <Fragment>
       <SEO
         titleTemplate="Medical Equipment Home"
-        description="Medical Equipment home of flone react minimalist eCommerce template."
+        description="Medical Equipment home of Total Gift Solutions."
       />
       <LayoutOne
         headerContainerClass="container-fluid"

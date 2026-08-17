@@ -24,7 +24,7 @@ SEO.propTypes = {
 SEO.defaultProps = {
     title: "Total Gift Solutions",
     titleTemplate: "Product Page",
-    description: "Product page of flone react minimalist eCommerce template.",
+    description: "Product page of Total Gift Solutions, Corporate Gifting.",
 };
 
 export default SEO;
