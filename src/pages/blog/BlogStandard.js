@@ -154,9 +154,7 @@ const BlogStandard = () => {
           </div>
         </div>
 
-
-
-        <div className="section-title" style={{ textAlign: 'center' }}>
+        {/*<div className="section-title" style={{ textAlign: 'center' }}>
           <h2>OUR WORK PROCESS</h2>
           <p className=""></p>
         </div>
@@ -187,7 +185,7 @@ const BlogStandard = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div>*/}
 
         
         <div className="section-title" style={{ textAlign: 'center' }}>
