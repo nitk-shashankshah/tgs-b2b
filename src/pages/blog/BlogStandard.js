@@ -61,7 +61,7 @@ const BlogStandard = () => {
         <div
           className="blog-hero-area"
           style={{
-            backgroundImage: "radial-gradient(circle, rgb(217 217 217) -100%, rgb(251 254 255) 27%, rgb(255, 255, 255) 26%)",
+            backgroundImage: "radial-gradient(circle, rgb(217 217 217) -100%, rgb(255 255 255) 27%, rgb(255, 255, 255) 26%)",
             backgroundPosition: "-581px -197px",
             backgroundRepeat: "no-repeat",
             backgroundSize: "146% 126%"
@@ -71,7 +71,7 @@ const BlogStandard = () => {
             <div className="blog-hero-center">
               <div className="blog-hero-content">
                 <h1>Premium gift kits</h1>
-                <h1>crafted for your business </h1>
+                <h1 style={{lineHeight: '55px'}}>crafted for your business </h1>
                 <p className="blog-hero-subhead">Customized kits for every occasion. Delivered.</p>
                 <div className="blog-hero-btn-group">
                   <Link className="default-btn" to={process.env.PUBLIC_URL + "/brochures-right-sidebar"}>
