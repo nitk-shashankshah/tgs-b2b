@@ -61,10 +61,10 @@ const BlogStandard = () => {
         <div
           className="blog-hero-area"
           style={{
-            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/banner/color-blob.png)`,
+            backgroundImage: "radial-gradient(circle, rgb(199 236 255) -100%, rgb(251 254 255) 27%, rgb(255, 255, 255) 26%)",
+            backgroundPosition: "-581px -197px",
             backgroundRepeat: "no-repeat",
-            backgroundPosition: "-200px -300px",
-            backgroundSize: "cover"
+            backgroundSize: "146% 126%"
           }}
         >
           <div className="container">

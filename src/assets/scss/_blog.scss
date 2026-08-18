@@ -428,6 +428,9 @@
   }
   @media #{$xs-layout} {
     margin: 0 -15px 40px;
+    background-image: radial-gradient(circle at center top, rgb(199 236 255) -100%, rgb(251 254 255) 27%, rgb(255, 255, 255) 26%) !important;
+    background-position: center top !important;
+    background-size: cover !important;
   }
   .blog-hero-center {
     display: flex;
