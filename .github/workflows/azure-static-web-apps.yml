@@ -29,6 +29,8 @@ jobs:
           REACT_APP_EMAILJS_CONTACT_TEMPLATE: ${{ secrets.REACT_APP_EMAILJS_CONTACT_TEMPLATE }}
           REACT_APP_EMAILJS_ENQUIRY_TEMPLATE: ${{ secrets.REACT_APP_EMAILJS_ENQUIRY_TEMPLATE }}
           REACT_APP_EMAILJS_PUBLIC_KEY: ${{ secrets.REACT_APP_EMAILJS_PUBLIC_KEY }}
+          REACT_APP_EMAILJS_ORDER_TEMPLATE: ${{ secrets.REACT_APP_EMAILJS_ORDER_TEMPLATE }}
+          REACT_APP_RAZORPAY_KEY_ID: ${{ secrets.REACT_APP_RAZORPAY_KEY_ID }}
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
