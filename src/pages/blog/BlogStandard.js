@@ -58,7 +58,15 @@ const BlogStandard = () => {
             {label: "Blog", path: process.env.PUBLIC_URL + pathname }
           ]}
         />*/}
-        <div className="blog-hero-area">
+        <div
+          className="blog-hero-area"
+          style={{
+            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/banner/color-blob.png)`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "cover"
+          }}
+        >
           <div className="container">
             <div className="blog-hero-center">
               <div className="blog-hero-content">

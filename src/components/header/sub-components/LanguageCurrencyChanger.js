@@ -1,20 +1,20 @@
 import PropTypes from "prop-types";
+import { useDispatch } from "react-redux";
 import { useTranslation } from "react-i18next";
-// import { useDispatch } from "react-redux";
-// import { setCurrency } from "../../../store/slices/currency-slice"
+import { setCurrency } from "../../../store/slices/currency-slice"
 
 const LanguageCurrencyChanger = ({ currency }) => {
   const { i18n } = useTranslation();
-  // const dispatch = useDispatch();
+  const dispatch = useDispatch();
   const changeLanguageTrigger = e => {
     const languageCode = e.target.value;
     i18n.changeLanguage(languageCode);
   };
 
-  // const setCurrencyTrigger = e => {
-  //   const currencyName = e.target.value;
-  //   dispatch(setCurrency(currencyName));
-  // };
+  const setCurrencyTrigger = e => {
+    const currencyName = e.target.value;
+    dispatch(setCurrency(currencyName));
+  };
 
   return (
     <div className="language-currency-wrap">
@@ -39,7 +39,7 @@ const LanguageCurrencyChanger = ({ currency }) => {
           </ul>
         </div>
       </div>
-      {/*<div className="same-language-currency use-style">
+      <div className="same-language-currency use-style">
         <span>
           {currency.currencyName} <i className="fa fa-angle-down" />
         </span>
@@ -67,7 +67,7 @@ const LanguageCurrencyChanger = ({ currency }) => {
             </li>
           </ul>
         </div>
-      </div>*/}
+      </div>
       <div className="same-language-currency">
         <p>Call +91-8884441952</p>
       </div>
