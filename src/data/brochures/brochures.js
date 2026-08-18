@@ -5,7 +5,7 @@ const BASE = "https://tgsb2bwebsiteassets.blob.core.windows.net/assets/gift-kits
 // pages: how many of those images exist — regenerate the images if you change it.
 const BROCHURES = [
   { id: 1,  pages: 73, slug: "modern-gifting-solutions",        filename: "Modern Gifting Solutions.pdf",             title: "Modern Gifting Solutions",      tag: "Gifting Guide" },
-  { id: 2,  pages: 10, slug: "tgs-b2b-gifting-process",         filename: "TGS - B2B Gifting Process.pdf",            title: "B2B Gifting Process",           tag: "B2B"           },
+  { id: 2,  pages: 4,  slug: "tgs-b2b-gifting-process",         filename: "TGS - B2B Gifting Process.pdf",            title: "B2B Gifting Process",           tag: "B2B"           },
   { id: 3,  pages: 10, slug: "tgs-bags-backpacks",              filename: "TGS - Bags & Backpacks.pdf",               title: "Bags & Backpacks",              tag: "Bags"          },
   { id: 4,  pages: 10, slug: "tgs-birthday-hampers",            filename: "TGS - Birthday Hampers.pdf",               title: "Birthday Hampers",              tag: "Hampers"       },
   { id: 5,  pages: 10, slug: "tgs-boxes-collection",            filename: "TGS - Boxes Collection.pdf",               title: "Boxes Collection",              tag: "Packaging"     },
