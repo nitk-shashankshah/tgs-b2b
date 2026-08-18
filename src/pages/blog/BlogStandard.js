@@ -205,7 +205,7 @@ const BlogStandard = () => {
 
                   <div className="text-center mt-30">
                     <Link
-                      to={process.env.PUBLIC_URL + "/brochures"}
+                      to={process.env.PUBLIC_URL + "/brochures-right-sidebar"}
                       className="default-btn"
                     >
                       View All Brochures →
