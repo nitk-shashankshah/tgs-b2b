@@ -61,7 +61,7 @@ const BlogStandard = () => {
         <div
           className="blog-hero-area"
           style={{
-            backgroundImage: "radial-gradient(circle, rgb(199 236 255) -100%, rgb(251 254 255) 27%, rgb(255, 255, 255) 26%)",
+            backgroundImage: "radial-gradient(circle, rgb(217 217 217) -100%, rgb(251 254 255) 27%, rgb(255, 255, 255) 26%)",
             backgroundPosition: "-581px -197px",
             backgroundRepeat: "no-repeat",
             backgroundSize: "146% 126%"
