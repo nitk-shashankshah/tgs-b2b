@@ -4,7 +4,7 @@ import clsx from "clsx"
 const TestimonialOneSingle = ({ data, testimonialClass }) => {
   return (
     <div className={clsx(testimonialClass || "single-testimonial", "text-center")}>
-      <img src={process.env.PUBLIC_URL + data.image} alt="" />
+      {/*<img src={process.env.PUBLIC_URL + data.image} alt="" />*/}
       <p>{data.content}</p>
       <div className="client-info">
         <i className="fa fa-map-signs" />

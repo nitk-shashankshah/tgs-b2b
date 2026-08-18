@@ -50,7 +50,7 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
                   <div className="col-lg-7">
                     <div className="review-wrapper">
                       <div className="single-review">
-                        <div className="review-img">
+                        {/*<div className="review-img">
                           <img
                             src={
                               process.env.PUBLIC_URL +
@@ -58,7 +58,7 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
                             }
                             alt=""
                           />
-                        </div>
+                        </div>*/}
                         <div className="review-content">
                           <div className="review-top-wrap">
                             <div className="review-left">

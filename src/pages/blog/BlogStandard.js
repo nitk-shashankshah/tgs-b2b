@@ -66,7 +66,7 @@ const BlogStandard = () => {
                 <h1>crafted for your business </h1>
                 <p className="blog-hero-subhead">Customized kits for every occasion. Delivered.</p>
                 <div className="blog-hero-btn-group">
-                  <Link className="default-btn" to={process.env.PUBLIC_URL + "/brochures"}>
+                  <Link className="default-btn" to={process.env.PUBLIC_URL + "/brochures-right-sidebar"}>
                     Get Started
                   </Link>
                   <Link
