@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import BROCHURES from "../../data/brochures/brochures";
 import PdfViewer from "../../components/pdf/PdfViewer";
 import EnquiryModal from "../../components/enquiry/EnquiryModal";
+import BlogEnquiryForm from "./BlogEnquiryForm";
 
 const BlogPost = ({ kitId }) => {
   const [enquiryPage, setEnquiryPage] = useState(null); // null = closed
@@ -71,6 +72,8 @@ const BlogPost = ({ kitId }) => {
           <span />
         )}
       </div>
+
+      <BlogEnquiryForm brochureTitle={brochure.title} />
     </Fragment>
   );
 };

@@ -4,7 +4,7 @@ import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BlogSidebar from "../../wrappers/blog/BlogSidebar";
-import BlogComment from "../../wrappers/blog/BlogComment";
+import BlogTestimonial from "../../wrappers/blog/BlogTestimonial";
 import BlogPost from "../../wrappers/blog/BlogPost";
 
 const BlogDetailsStandard = () => {
@@ -33,8 +33,8 @@ const BlogDetailsStandard = () => {
                   {/* blog post */}
                   <BlogPost kitId={kitId} />
 
-                  {/* blog post comment */}
-                  <BlogComment />
+                  {/* blog post testimonials */}
+                  <BlogTestimonial />
                 </div>
               </div>
               <div className="col-lg-3">
