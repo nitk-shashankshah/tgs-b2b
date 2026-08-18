@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import BROCHURES, { getBrochureCoverUrl } from "../../data/brochures/brochures";
 import PdfThumbnail from "../../components/pdf/PdfThumbnail";
 
-const BlogPosts = ({ filterTag, limit }) => {
-  let list = filterTag ? BROCHURES.filter((b) => b.tag === filterTag) : BROCHURES;
+const BlogPosts = ({ filterTag, limit, items }) => {
+  let list = items || (filterTag ? BROCHURES.filter((b) => b.tag === filterTag) : BROCHURES);
   if (limit) list = list.slice(0, limit);
   return (
     <Fragment>
