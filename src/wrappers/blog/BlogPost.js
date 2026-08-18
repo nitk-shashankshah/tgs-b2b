@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import BROCHURES, { getBrochureUrl } from "../../data/brochures/brochures";
+import BROCHURES from "../../data/brochures/brochures";
 import PdfViewer from "../../components/pdf/PdfViewer";
 import EnquiryModal from "../../components/enquiry/EnquiryModal";
 
@@ -11,7 +11,7 @@ const BlogPost = ({ kitId }) => {
   const brochure = BROCHURES.find((b) => b.id === kitId) || BROCHURES[0];
   const prevBrochure = BROCHURES.find((b) => b.id === brochure.id - 1);
   const nextBrochure = BROCHURES.find((b) => b.id === brochure.id + 1);
-  const fileUrl = process.env.PUBLIC_URL + getBrochureUrl(brochure.filename);
+  // const fileUrl = getBrochureUrl(brochure.filename);
 
   return (
     <Fragment>
@@ -28,6 +28,14 @@ const BlogPost = ({ kitId }) => {
             </ul>
           </div>
           <h3>{brochure.title}</h3>
+          {/*<a
+            className="brochure-download-btn"
+            href={getBrochureUrl(brochure.filename)}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa fa-download" /> Download full brochure
+          </a>*/}
         </div>
       </div>
 
@@ -40,7 +48,8 @@ const BlogPost = ({ kitId }) => {
 
       <div className="dec-img-wrapper">
         <PdfViewer
-          fileUrl={fileUrl}
+          slug={brochure.slug}
+          title={brochure.title}
           numPages={brochure.pages}
           onEnquire={(pageNum) => setEnquiryPage(pageNum)}
         />

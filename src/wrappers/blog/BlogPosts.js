@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import BROCHURES, { getBrochureUrl } from "../../data/brochures/brochures";
+import BROCHURES, { getBrochureCoverUrl } from "../../data/brochures/brochures";
 import PdfThumbnail from "../../components/pdf/PdfThumbnail";
 
 const BlogPosts = ({ filterTag, limit }) => {
@@ -14,9 +14,8 @@ const BlogPosts = ({ filterTag, limit }) => {
             <div className="blog-img-2">
               <Link to={process.env.PUBLIC_URL + `/brochures-details-standard?kit=${brochure.id}`}>
                 <PdfThumbnail
-                  fileUrl={process.env.PUBLIC_URL + getBrochureUrl(brochure.filename)}
+                  coverUrl={getBrochureCoverUrl(brochure.slug)}
                   title={brochure.title}
-                  tag={brochure.tag}
                 />
               </Link>
             </div>

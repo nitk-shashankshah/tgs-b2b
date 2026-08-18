@@ -1063,71 +1063,21 @@
   background: #f5f5f5;
 }
 
-/* Desktop: iframe renders the actual PDF page */
 .pdf-thumbnail-scale-container {
   position: relative;
   width: 100%;
   height: 280px;
   overflow: hidden;
+  background: #fff;
 
-  .pdf-thumbnail-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200%;
-    height: 200%;
-    transform: scale(0.5);
-    transform-origin: top left;
-    border: none;
-    pointer-events: none;
-    background: #fff;
+  .pdf-thumbnail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
   }
 }
 
-/* Mobile: styled card fallback (PDFs don't render in iframes on mobile) */
-.pdf-thumbnail-card {
-  width: 100%;
-  height: 220px;
-  background: linear-gradient(135deg, #3b0a42 0%, #611f69 60%, #8b4f91 100%);
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 10px;
-
-  &__icon .fa {
-    font-size: 48px;
-    color: rgba(255, 255, 255, 0.85);
-  }
-
-  &__tag {
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: rgba(255, 255, 255, 0.65);
-    background: rgba(255, 255, 255, 0.15);
-    padding: 3px 10px;
-    border-radius: 20px;
-  }
-
-  &__title {
-    font-size: 14px;
-    font-weight: 500;
-    color: #fff;
-    text-align: center;
-    line-height: 1.4;
-    margin: 0;
-  }
-}
-
-/* Always show the PDF iframe; hide the purple card fallback */
-.pdf-thumb-desktop { display: block; }
-.pdf-thumb-mobile  { display: none;  }
-
-/* On mobile, shrink the iframe container to fit the 2-column grid */
 @media (max-width: 768px) {
   .pdf-thumbnail-scale-container {
     height: 150px;
@@ -1140,19 +1090,6 @@
     height: 90px;
     border-radius: 6px;
     overflow: hidden;
-  }
-
-  .pdf-thumbnail-card {
-    height: 80px;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding: 12px 14px;
-    gap: 12px;
-    border-radius: 8px;
-
-    &__icon .fa { font-size: 28px; }
-    &__tag      { display: none;   }
-    &__title    { font-size: 12px; text-align: left; }
   }
 }
 
@@ -1212,33 +1149,34 @@
   }
 }
 
+.brochure-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 9px 20px;
+  border: 1px solid #611f69;
+  border-radius: 6px;
+  color: #611f69;
+  font-size: 13px;
+  font-weight: 500;
+
+  &:hover {
+    background: #611f69;
+    color: #fff;
+  }
+}
+
 .pdf-gallery-frame {
   width: 100%;
-  aspect-ratio: 16 / 9;
   background: #fafafa;
   overflow: hidden;
 }
 
-.pdf-gallery-iframe {
+.pdf-gallery-image {
   width: 100%;
-  height: 100%;
-  border: none;
+  height: auto;
   display: block;
-  pointer-events: none;
-}
-
-.pdf-gallery-placeholder {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f5f0f6;
-
-  .fa {
-    font-size: 40px;
-    color: #c9a8d0;
-  }
 }
 
 .brochure-download-link {

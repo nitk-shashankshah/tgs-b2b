@@ -8,6 +8,7 @@ const  HeroSliderOneSingle = ({ data }) => {
         className="hero-slide-bg"
         src={encodeURI(process.env.PUBLIC_URL + data.image)}
         alt=""
+        style={data.fullWidth ? { width: "100%" } : undefined}
       />
       {(data.badge || data.headingLines?.length > 0 || data.headingHighlight || data.subtext || data.btn1?.text) && (
         <div className="hero-slide-overlay" style={data.overlayLeft ? { left: data.overlayLeft } : undefined}>

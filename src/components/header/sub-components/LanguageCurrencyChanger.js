@@ -1,20 +1,20 @@
 import PropTypes from "prop-types";
-import { useDispatch } from "react-redux";
 import { useTranslation } from "react-i18next";
-import { setCurrency } from "../../../store/slices/currency-slice"
+// import { useDispatch } from "react-redux";
+// import { setCurrency } from "../../../store/slices/currency-slice"
 
 const LanguageCurrencyChanger = ({ currency }) => {
   const { i18n } = useTranslation();
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const changeLanguageTrigger = e => {
     const languageCode = e.target.value;
     i18n.changeLanguage(languageCode);
   };
 
-  const setCurrencyTrigger = e => {
-    const currencyName = e.target.value;
-    dispatch(setCurrency(currencyName));
-  };
+  // const setCurrencyTrigger = e => {
+  //   const currencyName = e.target.value;
+  //   dispatch(setCurrency(currencyName));
+  // };
 
   return (
     <div className="language-currency-wrap">
@@ -35,21 +35,11 @@ const LanguageCurrencyChanger = ({ currency }) => {
               <button value="en" onClick={e => changeLanguageTrigger(e)}>
                 English
               </button>
-            </li>
-            {/*<li>
-              <button value="fn" onClick={e => changeLanguageTrigger(e)}>
-                French
-              </button>
-            </li>
-            <li>
-              <button value="de" onClick={e => changeLanguageTrigger(e)}>
-                Germany
-              </button>
-            </li>*/}
+            </li>            
           </ul>
         </div>
       </div>
-      <div className="same-language-currency use-style">
+      {/*<div className="same-language-currency use-style">
         <span>
           {currency.currencyName} <i className="fa fa-angle-down" />
         </span>
@@ -60,7 +50,7 @@ const LanguageCurrencyChanger = ({ currency }) => {
                 INR
               </button>
             </li>
-            {/*<li>
+            <li>
               <button value="USD" onClick={e => setCurrencyTrigger(e)}>
                 USD
               </button>
@@ -74,12 +64,12 @@ const LanguageCurrencyChanger = ({ currency }) => {
               <button value="GBP" onClick={e => setCurrencyTrigger(e)}>
                 GBP
               </button>
-            </li>*/}
+            </li>
           </ul>
         </div>
-      </div>
+      </div>*/}
       <div className="same-language-currency">
-        <p>+91-8884441952</p>
+        <p>Call +91-8884441952</p>
       </div>
     </div>
   );

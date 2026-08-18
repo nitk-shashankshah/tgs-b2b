@@ -19,7 +19,8 @@
     "subtext": "",
     "btn1": {},
     "btn2": {},
-    "footerNote": null
+    "footerNote": null,
+    "fullWidth": true
   },
   {
     "id": 3,
