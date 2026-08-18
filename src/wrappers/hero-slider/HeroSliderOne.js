@@ -11,7 +11,8 @@ const params = {
   modules: [EffectFade],
   loop: true,
   speed: 1000,
-  navigation: true
+  navigation: true,
+  autoplay: { delay: 4000, disableOnInteraction: false }
 };
 
 

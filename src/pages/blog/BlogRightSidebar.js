@@ -21,7 +21,7 @@ const BlogRightSidebar = () => {
         <Breadcrumb 
           pages={[
             {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Blog", path: process.env.PUBLIC_URL + pathname }
+            {label: "Brochures", path: process.env.PUBLIC_URL + pathname }
           ]} 
         />
         <div className="blog-area pt-100 pb-100">

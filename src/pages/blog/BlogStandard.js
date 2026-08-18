@@ -16,6 +16,7 @@ const bannerSliderParams = {
   loop: true,
   speed: 1000,
   navigation: true,
+  autoplay: { delay: 4000, disableOnInteraction: false },
 };
 
 // const CARD_COLORS = ["#fff", "#f1f7ee", "#f6f7ee", "#f9f0f5", "#fef5ef"];
@@ -65,7 +66,7 @@ const BlogStandard = () => {
                 <h1>crafted for your business </h1>
                 <p className="blog-hero-subhead">Customized kits for every occasion. Delivered.</p>
                 <div className="blog-hero-btn-group">
-                  <Link className="default-btn" to={process.env.PUBLIC_URL + "/"}>
+                  <Link className="default-btn" to={process.env.PUBLIC_URL + "/brochures"}>
                     Get Started
                   </Link>
                   <Link
