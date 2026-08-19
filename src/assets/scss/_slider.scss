@@ -167,6 +167,15 @@
   background: #fff;
 }
 
+#b2c-banner-slider .swiper-slide {
+  background: #fff;
+}
+
+#categories .swiper-slide {
+  background: #fff;
+}
+
+
 
 .swiper-slide .slider-animated-1 * {
   -webkit-animation-duration: 1.3s;
@@ -2911,9 +2920,9 @@
       padding: 28px 20px 28px 28px;
     }
     @media #{$sm-layout}, #{$xs-layout} {
-      width: 90%;
+      width: 100%;
       padding: 20px 16px;
-      background: rgba(255,255,255,0.85);
+      background: rgba(255,255,255,0.2);
       border-radius: 8px;
       top: 50%;
       transform: translateY(-50%);

@@ -93,13 +93,18 @@ const BlogStandard = () => {
               </div>
 
               <div className="blog-hero-visual">
-                <div className="blog-hero-gift">                 
+                <div className="blog-hero-gift">
                   <img
                     src={process.env.PUBLIC_URL + "/assets/img/banner/gift.png"}
                     alt="Premium gift kit"
                     className="blog-hero-gift-img"
                   />
                 </div>
+                <img
+                  src={process.env.PUBLIC_URL + "/assets/img/banner/ribbon.png"}
+                  alt=""
+                  className="blog-hero-ribbon"
+                />
               </div>
             </div>
           </div>
@@ -132,7 +137,7 @@ const BlogStandard = () => {
           <p className=""></p>
         </div>
 
-        <div className="blog-categories-area">
+        <div id="categories" className="blog-categories-area">
           <div className="container">
             <Swiper
               options={categorySliderParams}
