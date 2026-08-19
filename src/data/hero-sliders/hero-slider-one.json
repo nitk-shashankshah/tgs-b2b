@@ -6,8 +6,8 @@
     "headingLines": ["Premium gift kits", "crafted for your"],
     "headingHighlight": "business",
     "subtext": "Customized kits for every occasion.\nDelivered with care.",
-    "btn1": { "text": "GET STARTED →", "url": "/shop" },
-    "btn2": { "text": "VISIT B2B STORE", "url": "/", "icon": "fa-shopping-bag" },
+    "btn1": { "text": "GET STARTED →", "url": "/shop-grid-standard" },
+    "btn2": { "text": "VISIT B2B STORE", "url": "/b2b", "icon": "fa-shopping-bag" },
     "footerNote": null
   },  
   {
