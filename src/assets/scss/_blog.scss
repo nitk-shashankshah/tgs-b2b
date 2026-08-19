@@ -499,6 +499,8 @@
   .blog-hero-gift {
     position: relative;
     display: inline-block;
+    top: -62px;
+    left: -100px;
     @media #{$xs-layout} {
         width: 60px;
         left:0px;
