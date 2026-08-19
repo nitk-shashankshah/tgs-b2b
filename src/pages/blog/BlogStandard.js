@@ -139,7 +139,7 @@ const BlogStandard = () => {
         </div>
 
 
-        <div className="section-title" style={{ textAlign: 'center' }}>
+        <div className="section-title" style={{ textAlign: 'center', paddingTop: '20px' }}>
           <h2>CATEGORIES</h2>
           <p className=""></p>
         </div>

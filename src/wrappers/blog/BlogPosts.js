@@ -9,7 +9,7 @@ const BlogPosts = ({ filterTag, limit, items }) => {
   return (
     <Fragment>
       {list.map((brochure) => (
-        <div key={brochure.id} className="col-6 col-md-6 col-lg-6">
+        <div key={brochure.id} className="col-12 col-md-6 col-lg-6">
           <div className="blog-wrap-2 mb-30">
             <div className="blog-img-2">
               <Link to={process.env.PUBLIC_URL + `/brochures-details-standard?kit=${brochure.id}`}>
