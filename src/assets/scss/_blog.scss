@@ -550,13 +550,13 @@
     .blog-hero-gift-img {
       height: auto;
       display: block;
-      width: 110px;
+      width: 100px;
       @media #{$lg-layout} {
-        width: 110px;
+        width: 100px;
       }
 
       @media #{$md-layout} {
-         width: 110px;
+         width: 100px;
       }
 
       @media #{$xs-layout} {
