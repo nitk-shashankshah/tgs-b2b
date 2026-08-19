@@ -442,10 +442,34 @@
 }*/
 
 .blog-hero-area {
-  border-radius: 32px;
+  position: relative;
   padding: 0px 20px;
   overflow: hidden;
-  background: radial-gradient(circle at left, #fafeff, #fff);
+  //background: radial-gradient(circle at left, #e8f6fa, #fff);
+  background: linear-gradient(to bottom, #f5fdff, #fff);
+  .blog-hero-cloud {
+    position: absolute;   
+    top: 24px;
+    right: 26%;
+    width: 90px;
+    height: auto;
+    z-index: 1;
+
+    @media #{$lg-layout} {
+      width: 70px;
+      right: 19%;
+    }
+
+    @media #{$md-layout} {
+      width: 60px;
+      top: 20px;
+      right: 14%;
+    }
+
+    @media #{$xs-layout} {
+      display: none;
+    }
+  }
   @media #{$lg-layout} {
     padding: 70px 30px;
   }
@@ -516,7 +540,7 @@
   .blog-hero-gift {
     position: relative;
     display: inline-block;
-    top: -62px;
+    top: -40px;
     left: -100px;
     @media #{$xs-layout} {
         width: 60px;

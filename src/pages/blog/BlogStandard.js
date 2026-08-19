@@ -59,6 +59,11 @@ const BlogStandard = () => {
           ]}
         />*/}
         <div className="blog-hero-area">
+          <img
+            src={process.env.PUBLIC_URL + "/assets/img/banner/cloud.png"}
+            alt=""
+            className="blog-hero-cloud"
+          />
           <div className="container">
             <div className="blog-hero-center">
               <div className="blog-hero-content">
