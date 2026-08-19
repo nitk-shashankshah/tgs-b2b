@@ -477,8 +477,6 @@
     padding: 60px 20px;
   }
   @media #{$xs-layout} {
-    margin: 0 -15px 40px;
-    background-image: radial-gradient(circle at center top, rgb(217 217 217) -100%, rgb(255 255 255) 27%, rgb(255, 255, 255) 26%) !important;
     background-position: center top !important;
     background-size: cover !important;
   }
@@ -550,7 +548,7 @@
     .blog-hero-gift-img {
       height: auto;
       display: block;
-      width: 100px;
+      width: 130px;
       @media #{$lg-layout} {
         width: 100px;
       }
