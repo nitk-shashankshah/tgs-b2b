@@ -413,6 +413,24 @@
     }
   }
 
+  .blog-banner-img--mobile {
+    display: none;
+  }
+
+  @media #{$xs-layout} {
+    .blog-banner-img--desktop {
+      display: none;
+    }
+
+    .blog-banner-img--mobile {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      border-radius: 24px;
+    }
+  }
+
 
 
 }

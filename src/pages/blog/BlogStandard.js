@@ -37,8 +37,8 @@ const categorySliderParams = {
 };
 
 const bannerImages = [
-  "/assets/img/banner/b2b-banner.png",
-  "/assets/img/banner/b2b-brown.png"
+  { src: "/assets/img/banner/b2b-banner.png", mobileSrc: "/assets/img/banner/b2b-mobile.png" },
+  { src: "/assets/img/banner/b2b-brown.png", mobileSrc: "/assets/img/banner/ceo-mobile.png" }
 ];
 
 const BlogStandard = () => {
@@ -116,13 +116,20 @@ const BlogStandard = () => {
             <div className="slider-area">
               <div className="slider-active nav-style-1" id="b2c-banner-slider">
                 <Swiper options={bannerSliderParams}>
-                  {bannerImages.map((src, key) => (
+                  {bannerImages.map((img, key) => (
                     <SwiperSlide key={key}>
                       <img
-                        src={process.env.PUBLIC_URL + src}
+                        src={process.env.PUBLIC_URL + img.src}
                         alt="Customized Gifting Kits"
-                        className="blog-banner-img"
+                        className={img.mobileSrc ? "blog-banner-img blog-banner-img--desktop" : "blog-banner-img"}
                       />
+                      {img.mobileSrc && (
+                        <img
+                          src={process.env.PUBLIC_URL + img.mobileSrc}
+                          alt="Customized Gifting Kits"
+                          className="blog-banner-img--mobile"
+                        />
+                      )}
                     </SwiperSlide>
                   ))}
                 </Swiper>
