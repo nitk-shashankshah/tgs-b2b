@@ -9,15 +9,6 @@
     "position": "Partner"
   },
   {
-    "id": "2",
-    "image": "/assets/img/team/team-3.jpg",
-    "fbLink": "//www.facebook.com",
-    "twitterLink": "//www.twitter.com",
-    "instagramLink": "//www.instagram.com",
-    "name": "Ms. Devyani Mohanty",
-    "position": "Partner"
-  },
-  {
     "id": "3",
     "image": "/assets/img/team/team-2.jpg",
     "fbLink": "//www.facebook.com",
@@ -32,7 +23,16 @@
     "fbLink": "//www.facebook.com",
     "twitterLink": "//www.twitter.com",
     "instagramLink": "//www.instagram.com",
-    "name": "Mr. Viay",
+    "name": "Mr. Vijay",
     "position": "Marketing"
+  },
+  {
+    "id": "4",
+    "image": "/assets/img/team/team-2.jpg",
+    "fbLink": "//www.facebook.com",
+    "twitterLink": "//www.twitter.com",
+    "instagramLink": "//www.instagram.com",
+    "name": "Mr Gopi",
+    "position": "Accounts"
   }
 ]
