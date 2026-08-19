@@ -58,15 +58,7 @@ const BlogStandard = () => {
             {label: "Blog", path: process.env.PUBLIC_URL + pathname }
           ]}
         />*/}
-        <div
-          className="blog-hero-area"
-          style={{
-            backgroundImage: "radial-gradient(circle, rgb(223 224 224) -100%, rgb(255, 255, 255) 27%, rgb(255, 255, 255) 26%)",
-            backgroundPosition: "-581px -197px",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "146% 126%"
-          }}
-        >
+        <div className="blog-hero-area">
           <div className="container">
             <div className="blog-hero-center">
               <div className="blog-hero-content">

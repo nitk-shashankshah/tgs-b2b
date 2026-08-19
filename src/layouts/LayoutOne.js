@@ -22,7 +22,7 @@ const LayoutOne = ({
         headerPositionClass={headerPositionClass}
         hidePromo={hidePromo}
       />
-      <div className={`layout-content-wrapper${showPlane ? " layout-content-wrapper--with-plane" : ""}`}>
+      <div className={`sky-blue-radial layout-content-wrapper${showPlane ? " layout-content-wrapper--with-plane" : ""}`}>
         {showPlane && (
           <div className="layout-plane">
             <img

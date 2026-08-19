@@ -442,10 +442,10 @@
 }*/
 
 .blog-hero-area {
-  background: #fff;
   border-radius: 32px;
   padding: 0px 20px;
   overflow: hidden;
+  background: radial-gradient(circle at left, #fafeff, #fff);
   @media #{$lg-layout} {
     padding: 70px 30px;
   }
@@ -909,7 +909,6 @@
 
 .layout-content-wrapper {
   position: relative;
-  background-color: #fff;
   &--with-plane {
     .layout-plane {
       position: absolute;
