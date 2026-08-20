@@ -1,12 +1,15 @@
 import { Fragment, useState, useMemo } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
+import axios from "axios";
 import emailjs from "@emailjs/browser";
 import { getDiscountPrice } from "../../helpers/product";
 import { deleteAllFromCart } from "../../store/slices/cart-slice";
 import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:4000/api";
 
 const INITIAL_FORM = {
   firstName: "",
@@ -94,7 +97,7 @@ const Checkout = () => {
     );
   };
 
-  const handlePlaceOrder = () => {
+  const handlePlaceOrder = async () => {
     const validationError = validate();
     if (validationError) {
       setErrorMsg(validationError);
@@ -111,10 +114,35 @@ const Checkout = () => {
     setStatus("processing");
     setErrorMsg("");
 
+    const orderItems = cartItems.map((cartItem) => {
+      const discountedPrice = getDiscountPrice(cartItem.price, cartItem.discount);
+      const unitPrice = discountedPrice != null ? discountedPrice : cartItem.price;
+      return {
+        name: cartItem.name,
+        quantity: cartItem.quantity,
+        price: unitPrice * currency.currencyRate,
+      };
+    });
+
+    let order;
+    try {
+      const { data } = await axios.post(`${API_URL}/orders`, {
+        billing: form,
+        items: orderItems,
+        currency: currency.currencyName,
+      });
+      order = data;
+    } catch (err) {
+      setErrorMsg(err.response?.data?.error || "Failed to create order. Please try again.");
+      setStatus("error");
+      return;
+    }
+
     const rzp = new window.Razorpay({
-      key: process.env.REACT_APP_RAZORPAY_KEY_ID,
-      amount: Math.round(cartTotalPrice * 100),
-      currency: currency.currencyName,
+      key: order.keyId,
+      order_id: order.razorpayOrderId,
+      amount: order.amount,
+      currency: order.currency,
       name: "Total Gift Solutions",
       description: `Order of ${cartItems.length} item(s)`,
       prefill: {
@@ -127,6 +155,18 @@ const Checkout = () => {
       },
       theme: { color: "#611f69" },
       handler: async (response) => {
+        try {
+          await axios.post(`${API_URL}/orders/${order.orderId}/verify`, {
+            razorpay_order_id: response.razorpay_order_id,
+            razorpay_payment_id: response.razorpay_payment_id,
+            razorpay_signature: response.razorpay_signature,
+          });
+        } catch {
+          setErrorMsg("Payment received but verification failed. Please contact support.");
+          setStatus("error");
+          return;
+        }
+
         try {
           await sendOrderEmail(response.razorpay_payment_id);
         } catch {
@@ -141,6 +181,7 @@ const Checkout = () => {
     });
 
     rzp.on("payment.failed", (response) => {
+      axios.post(`${API_URL}/orders/${order.orderId}/fail`).catch(() => {});
       setErrorMsg(`Payment failed: ${response.error.description}`);
       setStatus("error");
     });
