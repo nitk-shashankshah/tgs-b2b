@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          REACT_APP_API_URL: /api
+          REACT_APP_API_URL: ${{ secrets.REACT_APP_API_URL }}
           REACT_APP_EMAILJS_SERVICE_ID: ${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }}
           REACT_APP_EMAILJS_CONTACT_TEMPLATE: ${{ secrets.REACT_APP_EMAILJS_CONTACT_TEMPLATE }}
           REACT_APP_EMAILJS_ENQUIRY_TEMPLATE: ${{ secrets.REACT_APP_EMAILJS_ENQUIRY_TEMPLATE }}
