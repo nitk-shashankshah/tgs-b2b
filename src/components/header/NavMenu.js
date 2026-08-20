@@ -127,18 +127,11 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
               </li>
             </ul>
           </li>*/}
-          {/*<li>
-            <Link to={process.env.PUBLIC_URL + "/brochures"}>
-              {t("Brochures")}
-              sidebarMenu ? (
-                <span>
-                  <i className="fa fa-angle-right"></i>
-                </span>
-              ) : (
-                <i className="fa fa-angle-down" />
-              )
+          <li>
+            <Link to={process.env.PUBLIC_URL + "/b2c"}>
+              {t("Retail")}              
             </Link>
-            <ul className="submenu">
+            {/*<ul className="submenu">
               <li>
                 <Link to={process.env.PUBLIC_URL + "/b2b"}>
                   {t("b2b")}
@@ -164,8 +157,8 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
                   {t("brochures_details_standard")}
                 </Link>
               </li>
-            </ul>
-          </li>*/}
+            </ul>*/}
+          </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>
               {t("contact_us")}

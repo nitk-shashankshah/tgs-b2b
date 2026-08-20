@@ -406,8 +406,8 @@ const MobileNavMenu = () => {
           </ul>*/}
         </li>
         <li className="menu-item-has-children">
-          <Link to={process.env.PUBLIC_URL + "/brochures"}>
-            {t("brochures")}
+          <Link to={process.env.PUBLIC_URL + "/b2c"}>
+            {t("Retail")}
           </Link>
           {/*<ul className="sub-menu">            
             {CATEGORIES.map((cat) => (
