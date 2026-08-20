@@ -403,6 +403,27 @@
       }
     }
   }
+  .nav-call-item {
+    padding: 0 8px;
+    > a {
+      white-space: nowrap;
+      i {
+        margin-right: 4px;
+        color: $theme-color;
+      }
+    }
+  }
+  .nav-enquire-item {
+    display: inline-flex;
+    align-items: center;
+    height: 94px;
+    padding: 0 8px;
+
+    .header-enquire-btn {
+      padding: 6px 14px;
+      white-space: nowrap;
+    }
+  }
 }
 .stick .main-menu.menu-white nav ul li a {
   color: #555252;
@@ -413,6 +434,10 @@
 
 .stick .main-menu nav ul li a {
   line-height: 75px;
+}
+
+.stick .main-menu .nav-enquire-item {
+  height: 75px;
 }
 
 .stick .logo,

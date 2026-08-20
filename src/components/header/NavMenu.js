@@ -1,13 +1,17 @@
+import { Fragment, useState } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import clsx from "clsx";
 import { CATEGORIES } from "../../data/brochures/brochures";
+import EnquiryModal from "../enquiry/EnquiryModal";
 
 const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
   const { t } = useTranslation();
-  
+  const [enquiryOpen, setEnquiryOpen] = useState(false);
+
   return (
+    <Fragment>
     <div
       className={clsx(sidebarMenu
           ? "sidebar-menu"
@@ -123,18 +127,18 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
               </li>
             </ul>
           </li>*/}
-          <li>
+          {/*<li>
             <Link to={process.env.PUBLIC_URL + "/brochures"}>
               {t("Brochures")}
-              {/*sidebarMenu ? (
+              sidebarMenu ? (
                 <span>
                   <i className="fa fa-angle-right"></i>
                 </span>
               ) : (
                 <i className="fa fa-angle-down" />
-              )*/}
+              )
             </Link>
-            {/*<ul className="submenu">
+            <ul className="submenu">
               <li>
                 <Link to={process.env.PUBLIC_URL + "/b2b"}>
                   {t("b2b")}
@@ -160,16 +164,43 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
                   {t("brochures_details_standard")}
                 </Link>
               </li>
-            </ul>*/}
-          </li>
+            </ul>
+          </li>*/}
           <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>
               {t("contact_us")}
             </Link>
           </li>
+          {/*!sidebarMenu && (
+            <li className="nav-call-item">
+              <a href="tel:+918884441952" className="nav-call-link">
+                <i className="fa fa-phone" /> +91-8884441952
+              </a>
+            </li>
+          )*/}
+          {!sidebarMenu && (
+            <li className="nav-enquire-item">
+              <div className="header-enquire">
+                <button
+                  type="button"
+                  className="header-enquire-btn"
+                  onClick={() => setEnquiryOpen(true)}
+                >
+                  Enquire Now
+                </button>
+              </div>
+            </li>
+          )}
         </ul>
       </nav>
     </div>
+    <EnquiryModal
+      isOpen={enquiryOpen}
+      onClose={() => setEnquiryOpen(false)}
+      isGeneral={true}
+      brochureTitle="Total Gift Solutions"
+    />
+    </Fragment>
   );
 };
 

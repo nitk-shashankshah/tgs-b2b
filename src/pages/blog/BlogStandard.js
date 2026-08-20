@@ -50,14 +50,7 @@ const BlogStandard = () => {
         titleTemplate="Blog"
         description="Blog of Total Gift Solutions."
       />
-      <LayoutOne hidePromo showPlane>
-        {/* breadcrumb */}
-        {/*<Breadcrumb
-          pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Blog", path: process.env.PUBLIC_URL + pathname }
-          ]}
-        />*/}
+      <LayoutOne hidePromo showPlane headerContainerClass="container-fluid">
         <div
           className="blog-hero-area"          
         >

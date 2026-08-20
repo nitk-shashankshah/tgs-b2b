@@ -5,7 +5,7 @@ import Logo from "../../components/header/Logo";
 import NavMenu from "../../components/header/NavMenu";
 import IconGroup from "../../components/header/IconGroup";
 import MobileMenu from "../../components/header/MobileMenu";
-import HeaderTop from "../../components/header/HeaderTop";
+// import HeaderTop from "../../components/header/HeaderTop";
 // import PromoBanner from "../../components/header/PromoBanner";
 
 const HeaderOne = ({
@@ -36,7 +36,7 @@ const HeaderOne = ({
   return (
     <header className={clsx("header-area clearfix", headerBgClass, headerPositionClass)}>
       {/*!hidePromo && <PromoBanner />*/}
-      <div
+      {/*<div
         className={clsx(
           "header-top-area",
           headerPaddingClass,  "d-lg-block",
@@ -44,36 +44,37 @@ const HeaderOne = ({
         )}
       >
         <div className={layout === "container-fluid" ? layout : "container"}>
-          {/* header top */}
           <HeaderTop borderStyle={borderStyle} />
         </div>
-      </div>
+      </div>*/}
 
-      <div
-        className={clsx(
-          headerPaddingClass, 
-          "sticky-bar header-res-padding clearfix", 
-          scroll > headerTop && "stick"
-        )}
-      >
-        <div className={layout === "container-fluid" ? layout : "container"}>
-          <div className="row">
-            <div className="col-xl-2 col-lg-2 col-md-6 col-4">
-              {/* header logo */}
-              <Logo imageUrl="/assets/img/logo/87607.avif" logoClass="logo" style={{ width: "240px" }} />
-            </div>
-            <div className="col-xl-8 col-lg-8 d-none d-lg-block">
-              {/* Nav menu */}
-              <NavMenu />
-            </div>
-            <div className="col-xl-2 col-lg-2 col-md-6 col-8">
-              {/* Icon group */}
-              <IconGroup />
+      <div className="container">
+        <div
+          className={clsx(
+            headerPaddingClass,
+            "sticky-bar header-res-padding clearfix", 
+            scroll > headerTop && "stick"
+          )}
+        >
+          <div className={layout === "container-fluid" ? layout : "container"}>
+            <div className="row">
+              <div className="col-xl-2 col-lg-2 col-md-6 col-4">
+                {/* header logo */}
+                <Logo imageUrl="/assets/img/logo/87607.avif" logoClass="logo" style={{ width: "240px" }} />
+              </div>
+              <div className="col-xl-8 col-lg-8 d-none d-lg-block">
+                {/* Nav menu */}
+                <NavMenu />
+              </div>
+              <div className="col-xl-2 col-lg-2 col-md-6 col-8">
+                {/* Icon group */}
+                <IconGroup />
+              </div>
             </div>
           </div>
+          {/* mobile menu */}
+          <MobileMenu />
         </div>
-        {/* mobile menu */}
-        <MobileMenu />
       </div>
     </header>
   );
