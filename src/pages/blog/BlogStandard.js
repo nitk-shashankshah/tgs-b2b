@@ -114,7 +114,7 @@ const BlogStandard = () => {
           style={{
             backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/banner/bg-left.png)`,
             backgroundRepeat: "repeat-x",
-            backgroundPosition: "center 0px",
+            backgroundPosition: "center -30px",
             backgroundSize: "auto"
           }}
         >
