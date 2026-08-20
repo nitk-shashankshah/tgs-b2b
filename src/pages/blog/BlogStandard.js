@@ -70,7 +70,7 @@ const BlogStandard = () => {
                     Get Started
                   </Link>
                   <Link
-                    className="btn-hover btn-hover--blue"
+                    className="white-btn btn-hover btn-hover--blue"
                     to={process.env.PUBLIC_URL + "/b2c"}
                   >
                     Visit B2C Store &rarr;
