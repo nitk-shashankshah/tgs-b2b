@@ -68,7 +68,7 @@ const Contact = () => {
                     <div className="contact-info-dec">
                       <p>
                         <a href="mailto:admin@totalgiftsolutions.com">
-                          admin@totalgiftsolutions.com
+                          ops@totalgiftsolutions.com
                         </a>
                       </p>
                       <p>
