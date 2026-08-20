@@ -58,7 +58,9 @@ const BlogStandard = () => {
             {label: "Blog", path: process.env.PUBLIC_URL + pathname }
           ]}
         />*/}
-        <div className="blog-hero-area">
+        <div
+          className="blog-hero-area"          
+        >
           <img
             src={process.env.PUBLIC_URL + "/assets/img/banner/cloud.png"}
             alt=""
@@ -105,10 +107,17 @@ const BlogStandard = () => {
               </div>
             </div>
           </div>
-        </div>
 
         
-        <div className="blog-banner-area">
+        <div
+          className="blog-banner-area"
+          style={{
+            backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/banner/bg-left.png)`,
+            backgroundRepeat: "repeat-x",
+            backgroundPosition: "center 0px",
+            backgroundSize: "auto"
+          }}
+        >
           <div className="container">
             <div className="slider-area">
               <div className="slider-active nav-style-1" id="b2c-banner-slider">
@@ -133,6 +142,8 @@ const BlogStandard = () => {
               </div>
             </div>
           </div>
+        </div>
+
         </div>
 
 

@@ -357,11 +357,6 @@
   position: relative;
   z-index:0;
   overflow: hidden;
-  background:
-      radial-gradient(20vw at 10% 70%, #ff649640, #0000),
-      radial-gradient(20vw at 30% 70%, #6496ff40, #0000),
-      radial-gradient(20vw at 65% 70%, #64ff9640, #0000),
-      radial-gradient(20vw at 90% 70%, #ffff6440, #0000);
   padding: 0px 0px;
   @media #{$xs-layout} {
     margin-bottom: 40px;
@@ -369,7 +364,7 @@
   }
 
   // Large circle — its top arc creates the Slack-style concave curve
-  &::before {
+  /*&::before {
     content: "";
     position: absolute;
     z-index: 0;
@@ -379,10 +374,9 @@
     width: 200vw;
     height: 200vw;
     border-radius: 50%;
-    background: /*linear-gradient(#fcfcfc 20%, #f7f1f1 55%)*/ radial-gradient(20vw at 10% 70%, #ff649640, #0000), radial-gradient(20vw at 30% 70%, #6496ff40, #0000), radial-gradient(20vw at 65% 70%, #64ff9640, #0000), radial-gradient(20vw at 90% 70%, #ffff6440, #0000);
+    background: radial-gradient(20vw at 10% 70%, #ff649640, #0000), radial-gradient(20vw at 30% 70%, #6496ff40, #0000), radial-gradient(20vw at 65% 70%, #64ff9640, #0000), radial-gradient(20vw at 90% 70%, #ffff6440, #0000);
   }
 
-  // Radial colour blobs on top of the circle, behind the image
   &::after {      
     content: "";
     position: absolute;
@@ -393,7 +387,7 @@
     pointer-events: none;
     border-radius: 50% 50% 0 0;
     background: #fff;
-  }
+  }*/
 
   .container {
     position: relative;
@@ -443,10 +437,10 @@
 
 .blog-hero-area {
   position: relative;
-  padding: 0px 20px;
+  padding: 0px;
   overflow: hidden;
   //background: radial-gradient(circle at left, #e8f6fa, #fff);
-  background: linear-gradient(to bottom, #ecf9fc, #fff);
+  background: linear-gradient(to bottom, #f3fcfe, #fff);
   .blog-hero-cloud {
     position: absolute;   
     top: 24px;
